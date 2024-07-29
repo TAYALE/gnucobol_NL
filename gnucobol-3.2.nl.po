@@ -689,32 +689,25 @@ msgstr "Geen toegang tot woordenlijst '%s'"
 msgid "use of complete/fixed reserved words"
 msgstr "gebruik van complete/vaste gereserveerde woorden"
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxx                                                                        xxxxx
-xxxxx                         continue below                                 xxxxx
-xxxxx                                                                        xxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/config.def:52
 msgid "number of spaces that are assumed for tabs"
-msgstr ""
+msgstr "aantal spaties die een tab vervangen"
 
 #: cobc/config.def:55
 msgid "right margin column number for fixed-form reference-format"
-msgstr ""
+msgstr "kolom rechtermarge voor vaste vorm referentie formaat"
 
 #: cobc/config.def:57 cobc/config.def:63
 msgid "<number>"
-msgstr ""
+msgstr "<nummer>"
 
 #: cobc/config.def:58
 msgid "maximum number of characters allowed in the PICTURE character-string"
-msgstr ""
+msgstr "maximaal aantal karakters dat is toegestaan in de PICTURE velddefinitie"
 
 #: cobc/config.def:61
 msgid "maximum word-length for COBOL (= programmer defined) words"
-msgstr ""
+msgstr "maximum woordlengte voor COBOL woorden (=ingesteld door programmeur)"
 
 #: cobc/config.def:64
 msgid "maximum literal size in general"
@@ -734,62 +727,74 @@ msgid ""
 "                         * \"none\" to do no explicit initialization\n"
 "                         * default: \"init\""
 msgstr ""
+"standaard initialisatie voor velden zonder VALUE kan zijn\n"
+"                         * karakter tussen aanhalingstekens\n"
+"                         * decimaal 0..255 wat een karakter voorstelt\n"
+"                         * \"init\" om een PICTURE/USAGE te initialiseren\n"
+"                         * \"none\" voor geen expliciete initialisatie\n"
+"                         * standaard: \"init\""
+
 
 #: cobc/config.def:83
 msgid "default reference-format, may be one of: "
-msgstr ""
+msgstr "standaard referentieformaat, mag een van de volgende zijn: "
 
 #: cobc/config.def:86
 msgid "binary byte size - defines the allocated bytes according to PIC, may be one of: 2-4-8, 1-2-4-8, 1--8"
-msgstr ""
+msgstr "binary byte size - definieert de toegewezen bytes volgens PIC, mag zijn: 2-4-8, 1-2-4-8 of 1--8"
 
 #: cobc/config.def:89
 msgid "binary byte order, may be one of: native, big-endian"
-msgstr ""
+msgstr "binary byte order, mag zijn: native of big-endian"
 
 #: cobc/config.def:92
 msgid "how to interpret 'ASSIGN word': as 'ASSIGN EXTERNAL word' or 'ASSIGN DYNAMIC word', may be one of: dynamic, external, ibm (= external), mf (= dynamic)"
-msgstr ""
+msgstr "hoe 'ASSIGN word' te interpreteren: als 'ASSIGN EXTERNAL word' of 'ASSIGN DYNAMIC word', mag zijn: dynamic, external, ibm (= external) of mf (= dynamic)"
 
 #: cobc/config.def:95
 msgid "which compiler's rules to apply to SCREEN SECTION item clauses, may be one of: acu, gc, mf, rm, std, xopen"
-msgstr ""
+msgstr "welke compilerregels zijn van toepassing op SCREEN SECTION, mag zijn: acu, gc, mf, rm, std of xopen"
 
 #: cobc/config.def:98
 msgid "whether DECIMAL-POINT IS COMMA has effect in XML/JSON GENERATE, may be one of: none, xml, json, all"
-msgstr ""
+msgstr "is DECIMAL-POINT IS COMMA van invloed op XML/JSON GENERATE, mag zijn: none, xml, json of all"
 
 #: cobc/config.def:101
 msgid "checking for subscript (only done with EC-BOUND-SUBSCRIPT active), may be one of: full, max, record"
-msgstr ""
+msgstr "controle van subscript (alleen wanneer EC-BOUND-SUBSCRIPT actief is), mag zijn: full, max of record"
 
 #: cobc/config.def:106
 msgid "resolve file names at run time using environment variables"
-msgstr ""
+msgstr "bestandsnamen oplossen tijdens runtime met omgevingsvariabelen"
 
 #: cobc/config.def:109
 msgid "alternate formatting of numeric fields"
-msgstr ""
+msgstr "alternatieve formattering van numerieke velden"
 
 #: cobc/config.def:112
 msgid "numeric truncation according to ANSI"
-msgstr ""
+msgstr "numeriek afkappen volgens ANSI"
 
 #: cobc/config.def:115
 msgid "allow non-standard OCCURS DEPENDING ON syntax"
-msgstr ""
+msgstr "niet-standaard syntax van OCCURS DEPENDING ON toestaan"
 
 #: cobc/config.def:118
 #, fuzzy
 msgid "adjust items following OCCURS DEPENDING (implies complex-odo)"
-msgstr ""
-"Wijzig items na OCCURS DEPENDING\n"
-"\t\t\t- Vereist impliciete/expliciete versoepelde syntaxis"
+msgstr "aanpassen items volgt OCCURS DEPENDING (impliceert complex-odo)"
 
 #: cobc/config.def:121
 #, fuzzy
 msgid "applies JUSTIFY with VALUE clause"
-msgstr "Waarschuw bij EXTERNAL item met VALUE clausule"
+msgstr "JUSTIFY met VALUE clausule toepassen"
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxx                                                                        xxxxx
+xxxxx                         continue below                                 xxxxx
+xxxxx                                                                        xxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 #: cobc/config.def:124
 msgid "allow REDEFINES to other than last equal level number"
