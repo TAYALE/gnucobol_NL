@@ -4,6 +4,7 @@
 #
 # Ed Borchert <ed@borchert.nl>,
 # Ronald Heirbaut <ronald@tayale.nl>
+# Dutch translations follows translations by W.B.C. Ebbinkhuijsen as much as possible
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-cobol 2.0\n"
@@ -43,7 +44,7 @@ msgstr "Interne compiler fout"
 #: cobc/cobc.c:1236 cobc/cobc.c:1312
 #, fuzzy, c-format
 msgid "cannot allocate %d bytes of memory"
-msgstr "Kan geen %d bytes geheugen toekennen"
+msgstr "Kan geen %d bytes geheugen toewijzen"
 
 #: cobc/cobc.c:984 cobc/cobc.c:1000 cobc/cobc.c:1020 cobc/cobc.c:1079
 #: cobc/cobc.c:1098 cobc/cobc.c:1216 cobc/cobc.c:1331 cobc/cobc.c:1415
@@ -60,7 +61,7 @@ msgstr "Kan geen %d bytes geheugen herverdelen"
 #: cobc/cobc.c:1137 cobc/cobc.c:1253
 #, fuzzy
 msgid "attempt to reallocate non-allocated memory"
-msgstr "Poging om niet toegekend geheugen te herverdelen"
+msgstr "Poging om niet toegewezen geheugen te herverdelen"
 
 #: cobc/cobc.c:1170 cobc/cobc.c:1286
 #, c-format
@@ -711,7 +712,7 @@ msgstr "maximum woordlengte voor COBOL woorden (=ingesteld door programmeur)"
 
 #: cobc/config.def:64
 msgid "maximum literal size in general"
-msgstr ""
+msgstr "algemene maximale constante grootte"
 
 #: cobc/config.def:67
 #, fuzzy
@@ -788,6 +789,104 @@ msgstr "aanpassen items volgt OCCURS DEPENDING (impliceert complex-odo)"
 #, fuzzy
 msgid "applies JUSTIFY with VALUE clause"
 msgstr "JUSTIFY met VALUE clausule toepassen"
+
+#: cobc/config.def:124
+msgid "allow REDEFINES to other than last equal level number"
+msgstr "sta REDEFINES toe op andere dan laatst gelijke niveaunummer"
+
+#: cobc/config.def:127
+#, fuzzy
+msgid "allow certain syntax variations (e.g. REDEFINES position)"
+msgstr "sta bepaalde syntax variaties toe (bijv. REDEFINES positie)"
+
+#: cobc/config.def:130
+msgid "allow zero length reference-modification (only changed with EC-BOUND-REF-MOD active)"
+msgstr "sta nullengte referentie modificatie toe (alleen met EC-BOUND-REF-MOD actief)"
+
+#: cobc/config.def:133
+msgid "allow non-matching level numbers"
+msgstr "sta niet passende level nummers toe"
+
+#: cobc/config.def:136
+msgid "require ASSIGN USING items to be in WORKING-STORAGE"
+msgstr "ASSIGN USING items moeten in WORKING-STORAGE staan"
+
+#: cobc/config.def:139
+msgid "LOCAL-STORAGE SECTION implies RECURSIVE attribute"
+msgstr "LOCAL-STORGE SECTION impliceert RECURSIVE attribuut"
+
+#: cobc/config.def:142
+msgid "LINKAGE SECTION items remain allocated between invocations"
+msgstr "LINKAGE SECTION items blijven toegewezen tussen aanroepen"
+
+#: cobc/config.def:145
+msgid "MOVE operates as on IBM (left to right, byte by byte)"
+msgstr "MOVE werkt zoals op IBM (van links naar rechts, byte voor byte"
+
+#: cobc/config.def:148
+msgid "exit point of any currently executing perform is recognized if reached"
+msgstr "exit point van huidig uitgevoerde perform wordt herkend zodra bereikt"
+
+#: cobc/config.def:151
+msgid "limit precision in intermediate results to precision of final result (less accurate)"
+msgstr "limiteer precisie in tussenresultaten tot de precisie van het eindresultaat (minder accuraat)"
+
+#: cobc/config.def:154
+msgid "evaluate constant expressions at compile time"
+msgstr "evalueer constante expressies tijdens compileren"
+
+#: cobc/config.def:157
+msgid "allow hexadecimal value 'F' for NUMERIC test of signed PACKED DECIMAL field"
+msgstr "sta hexadecimale waarde 'F' toe voor NUMERIC afvraging van een signed PACKED DECIMAL veld"
+
+#: cobc/config.def:160
+msgid "program names don't lead to a reserved identifier"
+msgstr "programmanamen leiden niet naar een gereserveerde identificatie"
+
+#: cobc/config.def:163
+msgid "set WITH UPDATE clause as default for ACCEPT dest-item, instead of WITH NO UPDATE"
+msgstr "zet WITH UPDATE clausule als standaard voor ACCEPT ontvangstveld, in plaats van WITH NO UPDATE"
+
+#: cobc/config.def:166
+msgid "set WITH AUTO clause as default for ACCEPT dest-item, instead of WITH TAB"
+msgstr "zet WITH AUTO clausule als standaard voor ACCEPT onvangstveld, in plaats van WITH TAB"
+
+#: cobc/config.def:169
+msgid "assume CONSOLE IS CRT if not set otherwise"
+msgstr "aannemen dat CONSOLE IS CRT niet ergens anders is gezet"
+
+#: cobc/config.def:172
+msgid "NO-ECHO hides input with asterisks like SECURE"
+msgstr "NO-ECHO beschermt invoer met sterretjes zoals SECURE"
+
+#: cobc/config.def:175
+msgid "assume a field DISPLAY starts at LINE 0 COL 0 (i.e. at the cursor), not LINE 1 COL 1"
+msgstr "aannemen dat een veld DISPLAY begint op LINE 0 COL 0 (dwz bij de cursor), niet LINE 1 COL 1"
+
+#: cobc/config.def:178
+msgid "special behaviour of DISPLAY SPACE/ALL X'01'/ALL X'02'/ALL X'07'"
+msgstr "speciaal gedrag van DISPLAY SPACE/ALL X'01'/ALL X'02'/ALL X'07'"
+
+#: cobc/config.def:181
+msgid "COMP-1 is a 16-bit signed integer"
+msgstr "COMP-1 is een 16-bit signed integer"
+
+#: cobc/config.def:184
+msgid "POINTER is a 64-bit unsigned integer"
+msgstr "POINTER is een 64-bit unsigned integer"
+
+#: cobc/config.def:187
+msgid "imply zero in move of non-numeric literal to numeric items"
+msgstr "impliceer nul in kopiëren van niet-numerieke constante naar numerieke velden"
+
+#: cobc/config.def:190
+msgid "implicitly define a variable if an ASSIGN DYNAMIC does not match any data item"
+msgstr "impliciete definitie van een variabele als ASSIGN DYNAMIC komt met geen enkel gegevensveld overeen"
+
+#: cobc/config.def:193
+msgid "specifying device by mnemonic"
+msgstr "specificeer apparaat door mnemonische naam"
+
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxx                                                                        xxxxx
@@ -795,106 +894,6 @@ xxxxx                         continue below                                 xxx
 xxxxx                                                                        xxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-#: cobc/config.def:124
-msgid "allow REDEFINES to other than last equal level number"
-msgstr ""
-
-#: cobc/config.def:127
-#, fuzzy
-msgid "allow certain syntax variations (e.g. REDEFINES position)"
-msgstr ""
-"Versoepel syntaxis controle\n"
-"\t\t\t- bv. REDEFINES positie"
-
-#: cobc/config.def:130
-msgid "allow zero length reference-modification (only changed with EC-BOUND-REF-MOD active)"
-msgstr ""
-
-#: cobc/config.def:133
-msgid "allow non-matching level numbers"
-msgstr ""
-
-#: cobc/config.def:136
-msgid "require ASSIGN USING items to be in WORKING-STORAGE"
-msgstr ""
-
-#: cobc/config.def:139
-msgid "LOCAL-STORAGE SECTION implies RECURSIVE attribute"
-msgstr ""
-
-#: cobc/config.def:142
-msgid "LINKAGE SECTION items remain allocated between invocations"
-msgstr ""
-
-#: cobc/config.def:145
-msgid "MOVE operates as on IBM (left to right, byte by byte)"
-msgstr ""
-
-#: cobc/config.def:148
-msgid "exit point of any currently executing perform is recognized if reached"
-msgstr ""
-
-#: cobc/config.def:151
-msgid "limit precision in intermediate results to precision of final result (less accurate)"
-msgstr ""
-
-#: cobc/config.def:154
-msgid "evaluate constant expressions at compile time"
-msgstr ""
-
-#: cobc/config.def:157
-msgid "allow hexadecimal value 'F' for NUMERIC test of signed PACKED DECIMAL field"
-msgstr ""
-
-#: cobc/config.def:160
-msgid "program names don't lead to a reserved identifier"
-msgstr ""
-
-#: cobc/config.def:163
-msgid "set WITH UPDATE clause as default for ACCEPT dest-item, instead of WITH NO UPDATE"
-msgstr ""
-
-#: cobc/config.def:166
-msgid "set WITH AUTO clause as default for ACCEPT dest-item, instead of WITH TAB"
-msgstr ""
-
-#: cobc/config.def:169
-msgid "assume CONSOLE IS CRT if not set otherwise"
-msgstr ""
-
-#: cobc/config.def:172
-msgid "NO-ECHO hides input with asterisks like SECURE"
-msgstr ""
-
-#: cobc/config.def:175
-msgid "assume a field DISPLAY starts at LINE 0 COL 0 (i.e. at the cursor), not LINE 1 COL 1"
-msgstr ""
-
-#: cobc/config.def:178
-msgid "special behaviour of DISPLAY SPACE/ALL X'01'/ALL X'02'/ALL X'07'"
-msgstr ""
-
-#: cobc/config.def:181
-msgid "COMP-1 is a 16-bit signed integer"
-msgstr ""
-
-#: cobc/config.def:184
-msgid "POINTER is a 64-bit unsigned integer"
-msgstr ""
-
-#: cobc/config.def:187
-msgid "imply zero in move of non-numeric literal to numeric items"
-msgstr ""
-
-#: cobc/config.def:190
-msgid "implicitly define a variable if an ASSIGN DYNAMIC does not match any data item"
-msgstr ""
-
-#: cobc/config.def:193
-msgid "specifying device by mnemonic"
-msgstr ""
-
 #: cobc/config.def:199
 msgid ""
 "check contents of Area A (when reference format supports Area A enforcement),\n"
@@ -6900,7 +6899,7 @@ msgstr "Lengte van '%s' buiten grens: %d"
 #: libcob/common.c:4579 libcob/common.c:4584
 #, c-format
 msgid "EXTERNAL item '%s' previously allocated with size %d, requested size is %d"
-msgstr "EXTERNAL item '%s' eerder gemaakt met grootte %d, gevraagde grootte is %d"
+msgstr "EXTERNAL item '%s' eerder toegewezen met grootte %d, gevraagde grootte is %d"
 
 #: libcob/common.c:4961 libcob/common.c:5201
 #, c-format
@@ -7017,7 +7016,7 @@ msgstr "Ongeldige entry/exit in GLOBAL USE procedure"
 #: libcob/common.c:8988
 #, fuzzy
 msgid "unable to allocate memory"
-msgstr "Onmogelijk om geheugen te verkrijgen"
+msgstr "Onmogelijk om geheugen toe te wijzen"
 
 #: libcob/common.c:8993
 #, fuzzy
