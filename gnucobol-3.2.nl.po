@@ -885,15 +885,8 @@ msgstr "impliciete definitie van een variabele als ASSIGN DYNAMIC komt met geen 
 
 #: cobc/config.def:193
 msgid "specifying device by mnemonic"
-msgstr "specificeer apparaat door mnemonische naam"
+msgstr "specificeer apparaat met een mnemonische naam"
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxx                                                                        xxxxx
-xxxxx                         continue below                                 xxxxx
-xxxxx                                                                        xxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/config.def:199
 msgid ""
 "check contents of Area A (when reference format supports Area A enforcement),\n"
@@ -903,158 +896,174 @@ msgid ""
 "                         * statements must not start in Area A; and\n"
 "                         * separator periods must not be within Area A"
 msgstr ""
+"controleer de inhoud van gebied A (als het referentieformaat afdwingen van gebied A ondersteunt),\n"
+"                         ingeschakelde controles bevatten:\n"
+"                         * divisie, sectie, paragraafnamen, niveauaanwijzers (FD, SD, RD en CD),\n"
+"                           en topniveaunummers (01 en 77) moeten starten in gebied A;\n"
+"                         * statements mogen niet iun gebies A beginnen; en\n"
+"                         * scheidende punten mogen niet voorkomen in gebied A"
 
 #: cobc/config.def:209
 msgid "comment paragraphs in IDENTIFICATION DIVISION (AUTHOR, DATE-WRITTEN, ...)"
-msgstr "Commentaar paragrafen in IDENTIFICATION DIVISION (AUTHOR, DATE-WRITTEN, ...)"
+msgstr "commentaar paragrafen in IDENTIFICATION DIVISION (AUTHOR, DATE-WRITTEN, ...)"
 
 #: cobc/config.def:217
 msgid ""
 "apply partial replacing with literal source operand even when it replaces with spaces only;\n"
 "                         * \"skip\" prevents such replacements"
 msgstr ""
+"gedeeltelijke vervanging toepassen met letterlijke bronoperand, zelfs wanneer deze alleen met spaties wordt vervangen;\n"
+"                         * \"skip\" voorkomt deze vervangingen"
 
 #: cobc/config.def:221
 msgid "MEMORY-SIZE clause"
-msgstr ""
+msgstr "MEMORY-SIZE clausule"
 
 #: cobc/config.def:224
 msgid "MULTIPLE-FILE-TAPE clause"
-msgstr ""
+msgstr "MULTIPLE-FILE-TAPE clausule"
 
 #: cobc/config.def:227
 #, fuzzy
 #| msgid "RECORD clause invalid"
 msgid "LABEL-RECORDS clause"
-msgstr "RECORD clausule ongeldig"
+msgstr "LABEL-RECORDS clausule"
 
 #: cobc/config.def:230
 #, fuzzy
 msgid "VALUE-OF clause"
-msgstr "Ongeldige VALUE clausule"
+msgstr "VALUE-OF clausule"
 
 #: cobc/config.def:233
 #, fuzzy
 #| msgid "RECORD clause invalid"
 msgid "DATA-RECORDS clause"
-msgstr "RECORD clausule ongeldig"
+msgstr "DATA-RECORDS clausule"
 
 #: cobc/config.def:236
 msgid "OCCURS clause on top-level"
-msgstr ""
+msgstr "OCCURS clausule op topniveau"
 
 #: cobc/config.def:239 cobc/parser.y:7566
 msgid "SAME AS clause"
-msgstr ""
+msgstr "SAME AS clausule"
 
 #: cobc/config.def:242 cobc/parser.y:7904
 #, fuzzy
 msgid "TYPE TO clause"
-msgstr "LOCK clausule ongeldig hier"
+msgstr "TYPE TO clausule"
 
 #: cobc/config.def:245 cobc/parser.y:7927
 msgid "USAGE type-name"
-msgstr ""
+msgstr "USAGE vorm"
 
 #: cobc/config.def:248 cobc/parser.y:8563
 msgid "SYNCHRONIZED clause"
-msgstr ""
+msgstr "SYNCHRONIZED clausule"
 
 #: cobc/config.def:251 cobc/parser.y:8566
 msgid "LEFT/RIGHT phrases in SYNCHRONIZED clause"
-msgstr ""
+msgstr "LEFT/RIGHT frases in SYNCHRONIZED clausule"
 
 #: cobc/config.def:254
 msgid "SPECIAL-NAMES clause"
-msgstr ""
+msgstr "SPECIAL-NAMES clausule"
 
 #: cobc/config.def:257
 #, fuzzy
 msgid "GO TO statement without name"
-msgstr "GO TO met meerdere procedure-namen"
+msgstr "GO TO statement zonder naam"
 
 #: cobc/config.def:260
 #, fuzzy
 msgid "STOP-literal statement"
-msgstr "Ongeldig SET statement"
+msgstr "STOP-literal statement"
 
 #: cobc/config.def:263
 #, fuzzy
 msgid "STOP-identifier statement"
-msgstr "Ongeldige PROMPT identifier"
+msgstr "STOP-identifier statement"
 
 #: cobc/config.def:266
 msgid "STOP ERROR statement"
-msgstr ""
+msgstr "STOP ERROR statement"
 
 #: cobc/config.def:269
 msgid "DEBUGGING MODE and debugging indicator"
-msgstr ""
+msgstr "DEBUGGING MODE en debugging indicator"
 
 #: cobc/config.def:275
 msgid "PADDING CHARACTER clause"
-msgstr ""
+msgstr "PADDING CHARACTER clausule"
 
 #: cobc/config.def:278
 msgid "NEXT SENTENCE phrase"
-msgstr ""
+msgstr "NEXT SENTENCE frase"
 
 #: cobc/config.def:281
 msgid "listing-directive statements EJECT, SKIP1, SKIP2, SKIP3"
-msgstr ""
+msgstr "lijst richtlijn statements EJECT, SKIP1, SKIP2, SKIP3"
 
 #: cobc/config.def:284
 msgid "listing-directive statement TITLE"
-msgstr ""
+msgstr "lijst richtlijs statment TITLE"
 
 #: cobc/config.def:287
 #, fuzzy
 msgid "ENTRY statement"
-msgstr "Ongeldig SET statement"
+msgstr "ENRTY statement"
 
 #: cobc/config.def:290
 #, fuzzy
 msgid "move noninteger to alphanumeric"
-msgstr "Move geen heel getal naar alfanumeriek"
+msgstr "kopieer niet-geheel getal naar alfanumeriek"
 
 #: cobc/config.def:293
 #, fuzzy
 msgid "move figurative constants to numeric"
-msgstr "Figuratieve constante ongeldig hier"
+msgstr "kopieer figuratieve constante naar numeriek"
 
 #: cobc/config.def:296
 #, fuzzy
 msgid "move figurative constant SPACE to numeric"
-msgstr "Figuratieve constante ongeldig hier"
+msgstr "kopieer figuratieve constante SPACE naar numeriek"
 
 #: cobc/config.def:299
 #, fuzzy
 msgid "move figurative constant QUOTE to numeric"
-msgstr "Figuratieve constante ongeldig hier"
+msgstr "kopieer figuratieve constante QUOTE naar numeriek"
 
 #: cobc/config.def:302
 #, fuzzy
 #| msgid "OCCURS DEPENDING ON '%s' out of bounds: %d"
 msgid "OCCURS DEPENDING ON without to"
-msgstr "OCCURS DEPENDING ON '%s' buiten grens: %d"
+#|msgstr "OCCURS DEPENDING ON '%s' buiten grens: %d"
+msgstr "OCCURS DEPENDING ON zonder TO"
 
 #: cobc/config.def:305 cobc/parser.y:11443
 msgid "section segments"
-msgstr ""
+msgstr "section segmenten"
 
 #: cobc/config.def:308
 #, fuzzy
 msgid "ALTER statement"
-msgstr "Ongeldig SET statement"
+msgstr "ALTER statement"
 
 #: cobc/config.def:311
 msgid "OVERFLOW clause for CALL"
-msgstr ""
+msgstr "OVERFLOW clausule voor CALL"
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxx                                                                        xxxxx
+xxxxx                         continue below                                 xxxxx
+xxxxx                                                                        xxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/config.def:314
 #, fuzzy
 msgid "boolean literals (B'1010')"
-msgstr "Ongeldige numerieke constante"
+msgstr "boolean literals (B'1010')"
 
 #: cobc/config.def:317
 #, fuzzy
