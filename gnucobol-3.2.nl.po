@@ -906,7 +906,7 @@ msgstr ""
 
 #: cobc/config.def:209
 msgid "comment paragraphs in IDENTIFICATION DIVISION (AUTHOR, DATE-WRITTEN, ...)"
-msgstr ""
+msgstr "Commentaar paragrafen in IDENTIFICATION DIVISION (AUTHOR, DATE-WRITTEN, ...)"
 
 #: cobc/config.def:217
 msgid ""
