@@ -1053,6 +1053,112 @@ msgstr "ALTER statement"
 msgid "OVERFLOW clause for CALL"
 msgstr "OVERFLOW clausule voor CALL"
 
+#: cobc/config.def:314
+#, fuzzy
+msgid "boolean literals (B'1010')"
+msgstr "boolean constante (B'1010')"
+
+#: cobc/config.def:317
+#, fuzzy
+msgid "hexadecimal-boolean literals (BX'A')"
+msgstr "hexadecimale boolean constante (BX'A')"
+
+#: cobc/config.def:320
+#, fuzzy
+msgid "national literals (N'UTF-16 string')"
+msgstr "nationale constanten (N'UTF-16 string')"
+
+#: cobc/config.def:323
+#, fuzzy
+msgid "hexadecimal-national literals (NX'265E')"
+msgstr "hexadecimale nationale constanten (NX'265E')"
+
+#: cobc/config.def:326
+msgid "non-standard national literals (NC'UTF-16 string')"
+msgstr "niet-standaard nationale constanten (NC'UTF-16 string')"
+
+#: cobc/config.def:329
+msgid "HP COBOL octal literals (%377)"
+msgstr "HP COBOL octale constanten (%377)"
+
+#: cobc/config.def:332
+msgid "ACUCOBOL-GT literals (#B #O #H #X)"
+msgstr "ACUCOBOL-GT constanten (#B #O #H #X)"
+
+#: cobc/config.def:335
+msgid "EBCDIC symbolic characters in literals (\" \"135,151,151\"bar\"195, 194\"Z\" for \" foobarBAZ\")"
+msgstr "EBCDIC symbolische karakters in constanten (\" \"135,151,151\"bar\"195, 194\"Z\" voor \" foobarBAZ\")"
+
+#: cobc/config.def:338 cobc/pplex.l:2428
+msgid "continuation of COBOL words"
+msgstr "voortzetting van COBOL woorden"
+
+#: cobc/config.def:341
+msgid "NOT ON EXCEPTION before ON EXCEPTION"
+msgstr "NOT ON EXCEPTION voor ON EXCEPTION"
+
+#: cobc/config.def:344
+msgid "extensions to ACCEPT and DISPLAY"
+msgstr "uitbreidingen op ACCEPT en DISPLAY"
+
+#: cobc/config.def:347 cobc/field.c:3645
+msgid "RENAMES of 01-, 66- and 77-level items"
+msgstr "RENAMES van 01-, 66- en 77-level velden"
+
+#: cobc/config.def:351
+msgid "allow larger REDEFINES items"
+msgstr "sta grotere REDEFINES velden toe"
+
+#: cobc/config.def:354
+#, fuzzy
+#| msgid "'%s' is not defined in SPECIAL-NAMES"
+msgid "constants defined in SPECIAL-NAMES"
+msgstr "constanten definieerd in SPECIAL-NAMES"
+
+#: cobc/config.def:357
+msgid "constant with level 78 item (note: has left to right precedence in expressions)"
+msgstr "constante met niveau 78 veld (noot: voorrang van links naar rechts in expressies)"
+
+#: cobc/config.def:360
+msgid "constant with level 01 CONSTANT AS/FROM item"
+msgstr "constante met niveau 01 CONSTANT AS/FROM veld"
+
+#: cobc/config.def:363
+msgid "PERFORM VARYING without BY phrase (implies BY 1)"
+msgstr "PERFORM VARYING zonder BY frase (impliceert BY 1)"
+
+#: cobc/config.def:366
+msgid "references to sections not in DECLARATIVES from within DECLARATIVES"
+msgstr "verwijzingen naar secties die niet in DECLARATIVES staan vanuit DECLARATIVES"
+
+#: cobc/config.def:369 cobc/parser.y:12614 cobc/parser.y:12913
+msgid "CALL/CANCEL with program-prototype-name"
+msgstr "CALL/CANCEL met program-prototype-name"
+
+#: cobc/config.def:372
+msgid "specifying call-convention by mnemonic"
+msgstr "specificeren van aanroepconventie met mnemonische naam"
+
+#: cobc/config.def:375
+msgid "specifying call-convention by WITH ... LINKAGE"
+msgstr "specificeren van aanroepconventie door WITH ... LINKAGE"
+
+#: cobc/config.def:378
+msgid "support for PROCEDURE DIVISION USING OPTIONAL"
+msgstr "ondersteuning voor PROCEDURE DIVISION USING OPTIONAL"
+
+#: cobc/config.def:381
+msgid "numeric literals in VALUE clause of numeric-edited items"
+msgstr "mumerieke constanten in VALUE clausule van numeric-edited velden"
+
+#: cobc/config.def:384
+msgid "incorrect order of CONFIGURATION SECTION paragraphs"
+msgstr "onjuiste volgorde van CONFIGURATION SECTION paragrafen"
+
+#: cobc/config.def:387
+msgid "allow >> DEFINE CONSTANT var AS literal"
+msgstr "sta >> DEFINE CONSTANT var AS literal toe"
+
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxx                                                                        xxxxx
@@ -1060,112 +1166,6 @@ xxxxx                         continue below                                 xxx
 xxxxx                                                                        xxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-#: cobc/config.def:314
-#, fuzzy
-msgid "boolean literals (B'1010')"
-msgstr "boolean literals (B'1010')"
-
-#: cobc/config.def:317
-#, fuzzy
-msgid "hexadecimal-boolean literals (BX'A')"
-msgstr "Ongeldige numerieke constante"
-
-#: cobc/config.def:320
-#, fuzzy
-msgid "national literals (N'UTF-16 string')"
-msgstr "Ongeldige H constante: %s"
-
-#: cobc/config.def:323
-#, fuzzy
-msgid "hexadecimal-national literals (NX'265E')"
-msgstr "Ongeldige X constante: %s"
-
-#: cobc/config.def:326
-msgid "non-standard national literals (NC'UTF-16 string')"
-msgstr ""
-
-#: cobc/config.def:329
-msgid "HP COBOL octal literals (%377)"
-msgstr ""
-
-#: cobc/config.def:332
-msgid "ACUCOBOL-GT literals (#B #O #H #X)"
-msgstr ""
-
-#: cobc/config.def:335
-msgid "EBCDIC symbolic characters in literals (\" \"135,151,151\"bar\"195, 194\"Z\" for \" foobarBAZ\")"
-msgstr ""
-
-#: cobc/config.def:338 cobc/pplex.l:2428
-msgid "continuation of COBOL words"
-msgstr ""
-
-#: cobc/config.def:341
-msgid "NOT ON EXCEPTION before ON EXCEPTION"
-msgstr ""
-
-#: cobc/config.def:344
-msgid "extensions to ACCEPT and DISPLAY"
-msgstr ""
-
-#: cobc/config.def:347 cobc/field.c:3645
-msgid "RENAMES of 01-, 66- and 77-level items"
-msgstr ""
-
-#: cobc/config.def:351
-msgid "allow larger REDEFINES items"
-msgstr ""
-
-#: cobc/config.def:354
-#, fuzzy
-#| msgid "'%s' is not defined in SPECIAL-NAMES"
-msgid "constants defined in SPECIAL-NAMES"
-msgstr "'%s' is niet definieerd in SPECIAL-NAMES"
-
-#: cobc/config.def:357
-msgid "constant with level 78 item (note: has left to right precedence in expressions)"
-msgstr ""
-
-#: cobc/config.def:360
-msgid "constant with level 01 CONSTANT AS/FROM item"
-msgstr ""
-
-#: cobc/config.def:363
-msgid "PERFORM VARYING without BY phrase (implies BY 1)"
-msgstr ""
-
-#: cobc/config.def:366
-msgid "references to sections not in DECLARATIVES from within DECLARATIVES"
-msgstr ""
-
-#: cobc/config.def:369 cobc/parser.y:12614 cobc/parser.y:12913
-msgid "CALL/CANCEL with program-prototype-name"
-msgstr ""
-
-#: cobc/config.def:372
-msgid "specifying call-convention by mnemonic"
-msgstr ""
-
-#: cobc/config.def:375
-msgid "specifying call-convention by WITH ... LINKAGE"
-msgstr ""
-
-#: cobc/config.def:378
-msgid "support for PROCEDURE DIVISION USING OPTIONAL"
-msgstr ""
-
-#: cobc/config.def:381
-msgid "numeric literals in VALUE clause of numeric-edited items"
-msgstr ""
-
-#: cobc/config.def:384
-msgid "incorrect order of CONFIGURATION SECTION paragraphs"
-msgstr ""
-
-#: cobc/config.def:387
-msgid "allow >> DEFINE CONSTANT var AS literal"
-msgstr ""
-
 #: cobc/config.def:390
 #, fuzzy
 #| msgid "REDEFINES clause must follow entry-name"
