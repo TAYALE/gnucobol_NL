@@ -6,7 +6,7 @@
 # Ronald Heirbaut <ronald@tayale.nl>
 # Dutch translations follows translations by W.B.C. Ebbinkhuijsen as much as possible
 msgid ""
-msgstr ""
+msgstr
 "Project-Id-Version: gnu-cobol 2.0\n"
 "Report-Msgid-Bugs-To: gnucobol-messages@gnu.org\n"
 "POT-Creation-Date: 2023-07-28 19:20+0200\n"
@@ -201,7 +201,7 @@ msgstr "License GPLv3+: GNU GPL versie 3 of later <%s>"
 msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
-msgstr ""
+msgstr
 "Dit is vrij beschikbare software; zie de bron code voor de kopieer condities. Er is GEEN\n"
 "garantie; zelfs niet voor VERKOOP of BRUIKBAARHEID VOOR EEN BEPAALDE TOEPASSING."
 
@@ -529,7 +529,7 @@ msgstr "Teveel fouten in compilatiegroep: %d maximum fouten"
 #: cobc/cobc.c:7028
 #, c-format
 msgid "%s:%d: too many continuation lines"
-msgstr "%s:%d: teveel vervolgregels"
+msgstr "%s:%d: te veel vervolgregels"
 
 #: cobc/cobc.c:7956
 #, fuzzy
@@ -727,7 +727,7 @@ msgid ""
 "                         * \"init\" to initialize to PICTURE/USAGE\n"
 "                         * \"none\" to do no explicit initialization\n"
 "                         * default: \"init\""
-msgstr ""
+msgstr
 "standaard initialisatie voor velden zonder VALUE kan zijn\n"
 "                         * karakter tussen aanhalingstekens\n"
 "                         * decimaal 0..255 wat een karakter voorstelt\n"
@@ -895,7 +895,7 @@ msgid ""
 "                           and toplevel numbers (01 and 77) must start in Area A;\n"
 "                         * statements must not start in Area A; and\n"
 "                         * separator periods must not be within Area A"
-msgstr ""
+msgstr
 "controleer de inhoud van gebied A (als het referentieformaat afdwingen van gebied A ondersteunt),\n"
 "                         ingeschakelde controles bevatten:\n"
 "                         * divisie, sectie, paragraafnamen, niveauaanwijzers (FD, SD, RD en CD),\n"
@@ -911,7 +911,7 @@ msgstr "commentaar paragrafen in IDENTIFICATION DIVISION (AUTHOR, DATE-WRITTEN, 
 msgid ""
 "apply partial replacing with literal source operand even when it replaces with spaces only;\n"
 "                         * \"skip\" prevents such replacements"
-msgstr ""
+msgstr
 "gedeeltelijke vervanging toepassen met letterlijke bronoperand, zelfs wanneer deze alleen met spaties wordt vervangen;\n"
 "                         * \"skip\" voorkomt deze vervangingen"
 
@@ -1159,92 +1159,85 @@ msgstr "onjuiste volgorde van CONFIGURATION SECTION paragrafen"
 msgid "allow >> DEFINE CONSTANT var AS literal"
 msgstr "sta >> DEFINE CONSTANT var AS literal toe"
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxx                                                                        xxxxx
-xxxxx                         continue below                                 xxxxx
-xxxxx                                                                        xxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/config.def:390
 #, fuzzy
 #| msgid "REDEFINES clause must follow entry-name"
 msgid "REDEFINES clause not following entry-name in definition"
-msgstr "REDEFINES clausule moet na ENTRY naam komen"
+msgstr "REDEFINES clausule volgt de entry-name niet in de definitie"
 
 #: cobc/config.def:393
 msgid "record sizes does not match RECORD clause"
-msgstr ""
+msgstr "record groottes komen niet overeen met de RECORD clausule"
 
 #: cobc/config.def:396 cobc/parser.y:5991 cobc/parser.y:6005
 #: cobc/parser.y:6018 cobc/parser.y:6029
 #, fuzzy
 msgid "RECORD DELIMITER clause"
-msgstr "LOCK clausule ongeldig hier"
+msgstr "RECORD DELIMITER clausule"
 
 #: cobc/config.def:399
 msgid "BINARY-SEQUENTIAL and LINE-SEQUENTIAL phrases in RECORD DELIMITER"
-msgstr ""
+msgstr "BINARY-SEQUENTIAL en LINE-SEQUENTIAL frases in RECORD DELIMITER"
 
 #: cobc/config.def:402 cobc/tree.c:4873
 msgid "RECORD DELIMITER clause on file with fixed-length records"
-msgstr ""
+msgstr "RECORD DELIMITER clausule op bestand met records met vaste lengte"
 
 #: cobc/config.def:405
 msgid "missing statement (e.g. empty IF / PERFORM)"
-msgstr ""
+msgstr "statement mist (bijv. lege IF / PERFORM)"
 
 #: cobc/config.def:408
 msgid "missing period in PROCEDURE DIVISION (when reference format supports Area A enforcement)"
-msgstr ""
+msgstr"punt mist in PROCEDURE DIVISION (als referentieformaat gebied A afgedwongen ondersteunt)"
 
 #: cobc/config.def:411
 msgid "zero-length literals, e.g. '' and \"\""
-msgstr ""
+msgstr "nullengte constanten, bijv. '' en \"\""
 
 #: cobc/config.def:414
 msgid "XML GENERATE's phrases other than COUNT IN"
-msgstr ""
+msgstr "XML GENERATE's frases anders dan COUNT IN"
 
 #: cobc/config.def:417 cobc/typeck.c:9017
 msgid "AFTER phrase in CONTINUE statement"
-msgstr ""
+msgstr "AFTER frase in CONTINUE statement"
 
 #: cobc/config.def:420
 msgid "ENTRY FOR GO TO and GO TO ENTRY statements"
-msgstr ""
+msgstr "ENTRY FOR GO TO en GO TO ENTRY statements"
 
 #: cobc/config.def:423 cobc/typeck.c:4642
 msgid "ASSIGN [TO] variable in SELECT"
-msgstr ""
+msgstr "ASSIGN [TO] variabele in SELECT"
 
 #: cobc/config.def:426
 msgid "ASSIGN USING/VARYING variable in SELECT"
-msgstr ""
+msgstr "ASSIGN USING/VARYING variabele in SELECT"
 
 #: cobc/config.def:429
 msgid "ASSIGN EXTERNAL/DYNAMIC in SELECT"
-msgstr ""
+msgstr "ASSIGN EXTERNAL/DYNAMIC in SELECT"
 
 #: cobc/config.def:432
 msgid "ASSIGN DISK FROM variable in SELECT"
-msgstr ""
+msgstr "ASSIGN DISK FROM variabele in SELECT"
 
 #: cobc/config.def:435
 msgid "VSAM status in FILE STATUS"
-msgstr ""
+msgstr "VSAM status in FILE STATUS"
 
 #: cobc/config.def:438
 msgid "CALL to own PROGRAM-ID implies RECURSIVE attribute"
-msgstr ""
+msgstr "CALL naar eigen PROGRAM-ID impliceert RECURSIVE attribuut"
 
 #: cobc/config.def:441
 msgid "DEPENDING clause in RECORD CONTAINS"
-msgstr ""
+msgstr "DEPENDING clausule in RECORD CONTAINS"
 
 #: cobc/config.def:444 cobc/tree.c:3623
 msgid "PICTURE string with 'L' character"
-msgstr ""
+msgstr "PICTURE string met 'L' karakter"
 
 #: cobc/error.c:141 libcob/common.c:1379 libcob/common.c:8715
 #: libcob/common.c:8766
@@ -1254,42 +1247,42 @@ msgstr "waarschuwing: "
 
 #: cobc/error.c:142 libcob/common.c:8784
 msgid "note: "
-msgstr ""
+msgstr "noot: "
 
 #: cobc/error.c:162
 #, fuzzy, c-format
 #| msgid "in section"
 msgid "in section '%s':"
-msgstr "in sectie"
+msgstr "in sectie '%s':"
 
 #: cobc/error.c:173
 #, fuzzy, c-format
 #| msgid "in paragraph"
 msgid "in paragraph '%s':"
-msgstr "in paragraaf"
+msgstr "in paragraaf '%s':"
 
 #: cobc/error.c:227 cobc/error.c:231 cobc/error.c:234
 msgid "too many errors"
-msgstr ""
+msgstr "te veel fouten"
 
 #: cobc/error.c:243
 #, fuzzy, c-format
 msgid "in file included from "
-msgstr "Ongeldige regel voortzetting"
+msgstr "in bestand opgenomen van "
 
 #: cobc/error.c:261 libcob/common.c:9146
 msgid "configuration error:"
-msgstr ""
+msgstr "configuratie fout:"
 
 #: cobc/error.c:274 libcob/common.c:920
 #, c-format
 msgid "system error %d"
-msgstr ""
+msgstr "systeem fout %d"
 
 #: cobc/error.c:616 cobc/error.c:632 cobc/error.c:971 cobc/error.c:992
 #, c-format
 msgid "%s used"
-msgstr ""
+msgstr "%s gebruikt"
 
 #: cobc/error.c:619 cobc/error.c:974
 #, c-format
@@ -1313,7 +1306,7 @@ msgstr "%s is niet in overeenstemming met %s"
 
 #: cobc/error.c:651
 msgid "configuration warning:"
-msgstr ""
+msgstr "configuratie waarschuwing"
 
 #: cobc/error.c:1040 cobc/error.c:1069
 #, c-format
@@ -1323,7 +1316,7 @@ msgstr "herdefinitie van '%s'"
 #: cobc/error.c:1046 cobc/error.c:1080
 #, c-format
 msgid "'%s' previously defined here"
-msgstr "'%s' eerder gedefinieerd hier"
+msgstr "'%s' is hier eerder gedefinieerd"
 
 #: cobc/error.c:1124 cobc/error.c:1130
 #, c-format
@@ -1333,12 +1326,19 @@ msgstr "'%s' is niet gedefinieerd"
 #: cobc/error.c:1126
 #, fuzzy, c-format
 msgid "'%s' cannot be used here"
-msgstr "'%s' kan hier niet worden geïndexeerd"
+msgstr "'%s' kan hier niet worden gebruikt"
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxx                                                                        xxxxx
+xxxxx                         continue below                                 xxxxx
+xxxxx                                                                        xxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/error.c:1128 cobc/parser.y:7941
 #, c-format
 msgid "'%s' is not defined, but is a reserved word in another dialect"
-msgstr ""
+msgstr
 
 #: cobc/error.c:1167
 #, fuzzy, c-format
@@ -1394,25 +1394,25 @@ msgstr "nivo %02d item '%s' kan alleen een %s clausule hebben"
 
 #: cobc/field.c:139
 msgid "constant expression has Divide by ZERO"
-msgstr ""
+msgstr
 
 #: cobc/field.c:195 cobc/field.c:332 cobc/field.c:340
 msgid "missing right parenthesis"
-msgstr ""
+msgstr
 
 #: cobc/field.c:224
 #, c-format
 msgid "expression stack overflow at %d entries for operation '%c'"
-msgstr ""
+msgstr
 
 #: cobc/field.c:265
 #, c-format
 msgid "expression stack overflow at %d entries"
-msgstr ""
+msgstr
 
 #: cobc/field.c:282
 msgid "missing left parenthesis"
-msgstr ""
+msgstr
 
 #: cobc/field.c:323
 #, fuzzy, c-format
@@ -1422,7 +1422,7 @@ msgstr "Ongeldige expressie"
 #: cobc/field.c:342
 #, c-format
 msgid "'%c' operator misplaced"
-msgstr ""
+msgstr
 
 #: cobc/field.c:403
 #, c-format
@@ -1637,11 +1637,11 @@ msgstr "'%s' COMP-6 met teken - Gewijzigd naar COMP-3"
 
 #: cobc/field.c:1688
 msgid "elementary items with SIGN clause must have S in PICTURE"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1691
 msgid "elementary items with SIGN clause must be USAGE DISPLAY or NATIONAL"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1720
 #, fuzzy, c-format
@@ -1651,7 +1651,7 @@ msgstr "'%s' kan geen BLANK WHEN ZERO zijn"
 #: cobc/field.c:1725
 #, c-format
 msgid "'%s' cannot have BLANK WHEN ZERO without being USAGE DISPLAY or NATIONAL"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1737
 #, fuzzy, c-format
@@ -1666,11 +1666,11 @@ msgstr "'%s' kan geen BLANK WHEN ZERO zijn"
 #: cobc/field.c:1798
 #, c-format
 msgid "elements in VALUE clause for '%s' (%d) exceed max amount (%d)"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1822
 msgid "unexpected VALUES ARE for elementary item"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1836 cobc/field.c:1840
 #, fuzzy, c-format
@@ -1679,39 +1679,39 @@ msgstr "Eerste VALUE clausule genegeerd voor EXTERNAL item"
 
 #: cobc/field.c:1853
 msgid "FULL has no effect on numeric items; you may want REQUIRED or PIC Z"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1884
 msgid "VALUE may not contain a figurative constant"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1893 cobc/field.c:1935 cobc/parser.y:750 cobc/parser.y:1823
 #: cobc/parser.y:1826
 #, c-format
 msgid "cannot specify both %s and %s"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1905
 #, c-format
 msgid "'%s' has FROM, TO or USING without PIC; PIC will be implied"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1922
 #, c-format
 msgid "'%s' has numeric VALUE without PIC; PIC will be implied"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1943
 msgid "cannot have PIC without FROM, TO or USING"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1952
 msgid "cannot have numeric VALUE without PIC"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1961
 msgid "cannot have FROM, TO or USING without PIC"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1971
 #, fuzzy
@@ -1722,33 +1722,33 @@ msgstr "INITIALIZED TO item is niet alfanumeriek"
 #: cobc/field.c:1986
 #, c-format
 msgid "'%s' needs a PIC, COL, LINE, VALUE, BELL or BLANK clause"
-msgstr ""
+msgstr
 
 #: cobc/field.c:1998
 #, c-format
 msgid "'%s' cannot have PIC without FROM, TO, USING or numeric VALUE"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2006
 #, c-format
 msgid "'%s' needs a PIC, FROM, TO, USING, VALUE, BELL, BLANK or ERASE clause"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2042
 msgid "cannot use AUTO, FULL, PROMPT, REQUIRED or SECURE on elementary item without TO or USING"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2049
 msgid "cannot use BLANK WHEN ZERO, JUSTIFIED, OCCURS or SIGN on item without FROM, TO or USING"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2068
 msgid "cannot use AUTO, FULL, REQUIRED or SECURE on elementary item without FROM, TO or USING"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2073
 msgid "cannot use BLANK WHEN ZERO, JUSTIFIED or SIGN without FROM, TO or USING"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2090
 #, fuzzy
@@ -1763,15 +1763,15 @@ msgstr "'%s' kan geen JUSTIFIED RIGHT zijn"
 
 #: cobc/field.c:2113
 msgid "cannot have AUTO without FROM, TO or USING"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2118
 msgid "cannot use FULL or REQUIRED on item without TO or USING"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2125
 msgid "SECURE can be used with TO only"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2127
 #, fuzzy
@@ -1793,7 +1793,7 @@ msgstr "'%s' 77 nivo hier niet toegestaan"
 
 #: cobc/field.c:2399
 msgid "OCCURS and multi COLUMNs is not allowed"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2419
 #, fuzzy, c-format
@@ -1807,7 +1807,7 @@ msgstr "SYNCHRONIZED genegeerd voor groep item '%s'"
 
 #: cobc/field.c:2884 cobc/field.c:3219
 msgid "larger REDEFINES"
-msgstr ""
+msgstr
 
 #: cobc/field.c:2898 cobc/field.c:3222 cobc/field.c:3227
 #, fuzzy, c-format
@@ -1836,7 +1836,7 @@ msgstr "%s and %s sluiten elkaar uit"
 
 #: cobc/field.c:3354 cobc/parser.y:7810 cobc/parser.y:7847
 msgid "variable-length PICTURE"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3475
 #, fuzzy
@@ -1846,27 +1846,27 @@ msgstr "Constante type komt niet overeen met data type"
 #: cobc/field.c:3549
 #, c-format
 msgid "THRU item '%s' may not come before '%s'"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3572
 #, c-format
 msgid "RENAMES cannot start/end at the OCCURS item '%s'"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3580
 #, c-format
 msgid "cannot use RENAMES on part of the table '%s'"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3618
 #, c-format
 msgid "RENAMES may not contain '%s' as it is a pointer or object reference"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3623
 #, c-format
 msgid "RENAMES may not contain '%s' as it is an OCCURS DEPENDING table"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3647
 #, fuzzy
@@ -1876,41 +1876,41 @@ msgstr "RENAMES mag niet verwijzen naar een 01 of > 50 nivo"
 #: cobc/field.c:3671
 #, c-format
 msgid "'%s' must immediately follow the record '%s'"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3679
 #, c-format
 msgid "THRU item must be different to '%s'"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3685
 #, c-format
 msgid "'%s' and '%s' must be in the same record"
-msgstr ""
+msgstr
 
 #: cobc/field.c:3696
 #, c-format
 msgid "THRU item '%s' may not be subordinate to '%s'"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:44
 msgid ""
 "  -fstack-size=<number>\tdefine PERFORM stack size\n"
 "                       * default: 255"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:49
 msgid ""
 "  -fif-cutoff=<number>  define cutoff depth for IF statements\n"
 "                        * default: 3"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:54
 #, fuzzy
 msgid ""
 "  -fsign=[ASCII|EBCDIC]\tdefine display sign representation\n"
 "                        * default: machine native"
-msgstr ""
+msgstr
 "Definieer display teken representatie\n"
 "\t\t\t- ASCII of EBCDIC (Standaard : machine native)"
 
@@ -1919,7 +1919,7 @@ msgstr ""
 msgid ""
 "  -ffold-copy=[UPPER|LOWER]\tfold COPY subject to value\n"
 "                        * default: no transformation"
-msgstr ""
+msgstr
 "Transformeer COPY naar waarde\n"
 "\t\t\t- UPPER of LOWER (Standaard : geen transformatie)"
 
@@ -1927,51 +1927,51 @@ msgstr ""
 msgid ""
 "  -ffold-call=[UPPER|LOWER]\tfold PROGRAM-ID, CALL, CANCEL subject to value\n"
 "                        * default: no transformation"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:66
 msgid ""
 "  -fmax-errors=<number>\tmaximum number of errors to report before\n"
 "                        compilation is aborted\n"
 "                        * default: 128"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:73
 msgid ""
 "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n"
 "                        intrinsics to be used without FUNCTION keyword"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:85
 msgid ""
 "  -fdump=<scope>        dump data fields on abort, <scope> may be\n"
 "                        a combination of: ALL, WS, LS, RD, FD, SC, LO"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:88
 msgid ""
 "  -fno-dump=<scope>     exclude data fields from dumping on abort, <scope> may\n"
 "                        be a combination of: ALL, WS, LS, RD, FD, SC, LO\n"
 "                        default if no scope specified: ALL"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:94
 msgid ""
 "  -fcallfh=<name>       specifies <name> to be used for I/O\n"
 "                        as external provided EXTFH interface module"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:98
 msgid ""
 "  -febcdic-table=<cconv-table>/<file>\tEBCDIC/ASCII translation table\n"
 "                        * e.g. default, ebcdic500_latin1..."
-msgstr ""
+msgstr
 
 #: cobc/flag.def:102
 msgid ""
 "  -fdefault-colseq=[ASCII|EBCDIC|NATIVE]\tdefine default collating sequence\n"
 "                        * default: NATIVE"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:110
 #, fuzzy
@@ -1987,7 +1987,7 @@ msgstr "Genereer berekende goto C statements"
 
 #: cobc/flag.def:117
 msgid "  -fextra-brace         generate extra braces in C source"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:120
 #, fuzzy
@@ -2004,24 +2004,24 @@ msgstr "PERFORM stapel gealloceerd in dynamisch geheugen"
 msgid ""
 "  -fstack-extended      store origin of entrypoints and PERFORM\n"
 "                        * turned on by --debug/-fdump"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:130
 msgid "  -fno-fast-compare     disables inline comparisions"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:135
 msgid ""
 "  -fno-remove-unreachable\tdisable remove of unreachable code\n"
 "                        * turned off by -g"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:139
 #, fuzzy
 msgid ""
 "  -ftrace               generate trace code\n"
 "                        * scope: executed SECTION/PARAGRAPH"
-msgstr ""
+msgstr
 "  -Xref                 Genereer kruisverwijzing door 'cobxref'\n"
 "                        (V. Coen's 'cobxref' moet in het pad staan"
 
@@ -2029,7 +2029,7 @@ msgstr ""
 msgid ""
 "  -ftraceall            generate trace code\n"
 "                        * scope: executed SECTION/PARAGRAPH/STATEMENTS"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:147
 #, fuzzy
@@ -2041,7 +2041,7 @@ msgstr "Alleen syntaxis fout controle; maak geen uitvoer"
 msgid ""
 "  -fdebugging-line      enable debugging lines\n"
 "                        * 'D' in indicator column or floating >>D"
-msgstr ""
+msgstr
 "Inschakelen debugging regels\n"
 "\t\t\t- 'D' in indicator kolom of zwervende >>D"
 
@@ -2050,7 +2050,7 @@ msgstr ""
 msgid ""
 "  -fsource-location     generate source location code\n"
 "                        * turned on by --debug/-ftraceall/-fec/-fdump"
-msgstr ""
+msgstr
 "Genereer bron locatie code\n"
 "\t\t\t- Ingeschakeld door -debug/-g/-ftraceall"
 
@@ -2063,14 +2063,14 @@ msgstr "Automatische initialisatie van het Cobol runtime systeem"
 msgid ""
 "  -fno-recursive-check  disable check of recursive program call;\n"
 "                        effectively compiling as RECURSIVE program"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:165
 #, fuzzy
 msgid ""
 "  -fstack-check         PERFORM stack checking\n"
 "                        * turned on by --debug/-g"
-msgstr ""
+msgstr
 "Doe stapel controle\n"
 "\t\t\t- Ingeschakeld door -debug of -g"
 
@@ -2079,22 +2079,22 @@ msgid ""
 "  -fmemory-check=<scope>     checks for invalid writes to internal storage,\n"
 "                        <scope> may be one of: all, pointer, using, none\n"
 "                        * default: none, set to all by --debug"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:174
 msgid "  -fsection-exit-check  check that code execution does not leave the scope of SECTIONs"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:177
 msgid "  -fimplicit-goback-check\tcheck that code execution does not end implicit at end of PROCEDURE DIVISION"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:180
 #, fuzzy
 msgid ""
 "  -fwrite-after         use AFTER 1 for WRITE of LINE SEQUENTIAL\n"
 "                        * default: BEFORE 1"
-msgstr ""
+msgstr
 "Gebruik AFTER 1 voor WRITE bij LINE SEQUENTIAL\n"
 "\t\t\t- Standaard : BEFORE 1"
 
@@ -2102,20 +2102,20 @@ msgstr ""
 msgid ""
 "  -fmfcomment           '*' in column 1 treated as comment with listing suppression\n"
 "                        * FIXED/COBOL85/VARIABLE format only"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:188
 msgid ""
 "  -facucomment          '$' in indicator area treated as '*',\n"
 "                        '|' treated as floating comment"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:193
 #, fuzzy
 msgid ""
 "  -fno-trunc            allow numeric field overflow\n"
 "                        * non-ANSI behaviour"
-msgstr ""
+msgstr
 "Sta overloop toe in numerieke velden\n"
 "\t\t\t- Non-ANSI gedrag"
 
@@ -2124,7 +2124,7 @@ msgstr ""
 msgid ""
 "  -fsingle-quote        use a single quote (apostrophe) for QUOTE\n"
 "                        * default: double quote"
-msgstr ""
+msgstr
 "Gebruik een enkel aanhalingsteken (apostrof) voor QUOTE\n"
 "\t\t\t- Standaard : dubbel aanhalingsteken"
 
@@ -2133,7 +2133,7 @@ msgstr ""
 msgid ""
 "  -foptional-file       treat all files as OPTIONAL\n"
 "                        * unless NOT OPTIONAL specified"
-msgstr ""
+msgstr
 "Behandel alle bestanden als OPTIONAL\n"
 "\t\t\t- tenzij NOT OPTIONAL is gespecificeerd"
 
@@ -2146,25 +2146,25 @@ msgstr "Uitvoer statische functie roept een CALL statement aan"
 msgid ""
 "  -fno-gen-c-decl-static-call\tdisable generation of C function declarations\n"
 "                        for subroutines with static CALL"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:218
 msgid ""
 "  -fgen-c-line-directives\tgenerate source location directives in C code;\n"
 "                        * turned on by -g/--coverage"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:222
 msgid ""
 "  -fgen-c-labels        generate extra labels in C sources;\n"
 "                        * turned on by -g"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:226
 msgid ""
 "  -fno-theaders         suppress all headers from listing while keeping\n"
 "                        page breaks"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:230
 #, fuzzy
@@ -2173,7 +2173,7 @@ msgstr "  -free                 Gebruik vrij bron formaat"
 
 #: cobc/flag.def:233
 msgid "  -fno-tmessages        suppress warning and error summary from listing"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:236
 #, fuzzy
@@ -2187,31 +2187,31 @@ msgstr "  -free                 Gebruik vrij bron formaat"
 
 #: cobc/flag.def:242
 msgid "  -fno-ttimestamp       suppress timestamp in listing headers"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:245
 msgid ""
 "  -fttitle=<title>      set listing title with '_' replaced by spaces;\n"
 "                        defaults to package name and version"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:249
 msgid ""
 "  -fno-diagnostics-show-option\tsuppress output of option that directly\n"
 "                        controls the diagnostic"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:253
 msgid "  -fno-diagnostics-show-caret\tdo not display source context on warning/error diagnostic"
-msgstr ""
+msgstr
 
 #: cobc/flag.def:256
 msgid "  -fno-diagnostics-show-line-numbers\tsuppress display of line numbers in diagnostics"
-msgstr ""
+msgstr
 
 #: cobc/help.c:33
 msgid "GnuCOBOL compiler for most COBOL dialects with lots of extensions"
-msgstr ""
+msgstr
 
 #: cobc/help.c:35
 #, fuzzy, c-format
@@ -2223,17 +2223,17 @@ msgstr "Gebruik: cobc [opties] bestand ..."
 msgid ""
 "Report bugs to: %s\n"
 "or (preferably) use the issue tracker via the home page."
-msgstr ""
+msgstr
 
 #: cobc/help.c:52 bin/cobcrun.c:146
 #, c-format
 msgid "GnuCOBOL home page: <%s>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:54 bin/cobcrun.c:148
 #, c-format
 msgid "General help using GNU software: <%s>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:61 bin/cobcrun.c:125
 msgid "Options:"
@@ -2270,7 +2270,7 @@ msgid ""
 "                        invoked by the compiler,\n"
 "                        (2) pass verbose option to assembler/compiler\n"
 "                        (3) pass verbose option to linker"
-msgstr ""
+msgstr
 
 #: cobc/help.c:74
 #, fuzzy
@@ -2294,7 +2294,7 @@ msgstr "  -m                    Bouw een dynamisch laadbare module (standaard)"
 
 #: cobc/help.c:78
 msgid "  -j [<args>], --job[=<args>]\trun program after build, passing <args>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:79
 msgid ""
@@ -2306,7 +2306,7 @@ msgid ""
 "                        acu-strict, acu, rm-strict, rm, gcos-strict,\n"
 "                        gcos;\n"
 "                        see configuration files in directory config"
-msgstr ""
+msgstr
 
 #: cobc/help.c:87
 #, fuzzy
@@ -2347,11 +2347,11 @@ msgid ""
 "  -fec=<exception-name>\tenable code generation for <exception-name>,\n"
 "                        see --list-exceptions for the possible values,\n"
 "                        sets -fsource-location"
-msgstr ""
+msgstr
 
 #: cobc/help.c:100
 msgid "  -fno-ec=<exception-name>\tdisable code generation for <exception-name>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:101
 #, fuzzy
@@ -2363,7 +2363,7 @@ msgstr "  -o <bestand>          Plaats de uitvoer in <file>"
 msgid ""
 "  -b                    combine all input files into a single\n"
 "                        dynamically loadable module"
-msgstr ""
+msgstr
 "  -b                    Combineer alle invoer bestanden in één bestand\n"
 "                        dynamisch laadbare module"
 
@@ -2399,7 +2399,7 @@ msgstr "  -o <bestand>          Plaats de uitvoer in <file>"
 
 #: cobc/help.c:110
 msgid "  --tlines=<lines>      specify lines per page in listing, default = 55"
-msgstr ""
+msgstr
 
 #: cobc/help.c:111
 #, fuzzy
@@ -2411,7 +2411,7 @@ msgstr "  -P(=<map of bestand>) Genereer voorbewerkte programma lijst (.lst)"
 msgid ""
 "  -X, --Xref            generate cross reference through 'cobxref'\n"
 "                        (V. Coen's 'cobxref' must be in path)"
-msgstr ""
+msgstr
 "  -Xref                 Genereer kruisverwijzing door 'cobxref'\n"
 "                        (V. Coen's 'cobxref' moet in het pad staan"
 
@@ -2457,7 +2457,7 @@ msgstr "  -Q <opties>           Voeg <opties> toe aan de C link fase"
 
 #: cobc/help.c:125
 msgid "  --coverage            instrument generated binaries for coverage"
-msgstr ""
+msgstr
 
 #: cobc/help.c:126
 #, fuzzy
@@ -2493,11 +2493,11 @@ msgstr "  -list-system          Toon systeem routines"
 msgid ""
 "  --save-temps[=<dir>]  save intermediate files\n"
 "                        * default: current directory"
-msgstr ""
+msgstr
 
 #: cobc/help.c:134
 msgid "  -MT <target>          set/add target file used in dependency list"
-msgstr ""
+msgstr
 
 #: cobc/help.c:135
 #, fuzzy
@@ -2531,7 +2531,7 @@ msgstr "  -W                    Inschakelen alle waarschuwingen"
 
 #: cobc/help.c:147
 msgid "  -Wno-<warning>        disable warning enabled by default, -Wall or -Wextra"
-msgstr ""
+msgstr
 
 #. TRANSLATORS: This msgid is appended to msgid for -Wno-pending and others
 #: cobc/help.c:153
@@ -2547,7 +2547,7 @@ msgstr "  -W                    Inschakelen alle waarschuwingen"
 
 #: cobc/help.c:165
 msgid "  -fdiagnostics-plain-output\tmake diagnostic output as plain as possible"
-msgstr ""
+msgstr
 
 #: cobc/help.c:166
 #, fuzzy
@@ -2561,7 +2561,7 @@ msgstr "  -W                    Inschakelen alle waarschuwingen"
 
 #: cobc/help.c:168
 msgid "  -Werror=<warning>     treat specified <warning> as error"
-msgstr ""
+msgstr
 
 #: cobc/help.c:169
 #, fuzzy
@@ -2577,29 +2577,29 @@ msgstr "Opties:"
 msgid ""
 "  -fibmcomp             sets -fbinary-size=2-4-8 -fsynchronized-clause=ok\n"
 "  -fno-ibmcomp          sets -fbinary-size=1--8  -fsynchronized-clause=ignore"
-msgstr ""
+msgstr
 
 #: cobc/help.c:206
 msgid ""
 "  -falternate-ebcdic    use restricted ASCII to EBCDIC translate\n"
 "  -fno-alternate-ebcdic use extended ASCII to EBCDIC translate"
-msgstr ""
+msgstr
 
 #: cobc/help.c:235
 msgid "Compiler dialect configuration options:"
-msgstr ""
+msgstr
 
 #: cobc/help.c:237 cobc/help.c:243
 msgid "<value>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:247
 msgid "<support>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:256
 msgid "where <support> is one of the following:"
-msgstr ""
+msgstr
 
 #. TRANSLATORS: This msgid is used when a variable name
 #. or label is referenced in a compiler message.
@@ -2608,58 +2608,58 @@ msgstr ""
 #: cobc/typeck.c:2378
 #, c-format
 msgid "'%s'"
-msgstr ""
+msgstr
 
 #: cobc/help.c:282
 msgid "word to be taken out of the reserved words list"
-msgstr ""
+msgstr
 
 #: cobc/help.c:282 cobc/help.c:283 cobc/help.c:285
 msgid "<word>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:283
 msgid "word to be added to reserved words list"
-msgstr ""
+msgstr
 
 #: cobc/help.c:284
 msgid "word to be added to reserved words list as alias"
-msgstr ""
+msgstr
 
 #: cobc/help.c:284
 msgid "<word>:<alias>"
-msgstr ""
+msgstr
 
 #: cobc/help.c:285
 msgid "special register to disable"
-msgstr ""
+msgstr
 
 #: cobc/help.c:286
 msgid "special register to enable"
-msgstr ""
+msgstr
 
 #: cobc/help.c:287
 msgid "<word> or <word>:<definition>, where definition uses backslash escaped spaces"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:307
 #, c-format
 msgid "'%s' should start in Area A"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:315
 #, c-format
 msgid "%s should start in Area A"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:322
 #, c-format
 msgid "%s should not start in Area A"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:330 cobc/parser.y:332
 msgid "start of statement in Area A"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:428
 #, fuzzy, c-format
@@ -2707,7 +2707,7 @@ msgstr "%s genegeerd"
 #: cobc/parser.y:760
 #, c-format
 msgid "cannot specify %s without number of lines on page"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:770
 #, c-format
@@ -2721,15 +2721,15 @@ msgstr "'%s' is niet in LINKAGE SECTION"
 
 #: cobc/parser.y:806
 msgid "TO phrase without DEPENDING phrase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:808
 msgid "maximum number of occurrences assumed to be exact number"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:813 cobc/parser.y:8398
 msgid "OCCURS TO must be greater than OCCURS FROM"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:823
 #, fuzzy
@@ -2750,7 +2750,7 @@ msgstr "%s kop ontbreekt - veronderstelt"
 #: cobc/parser.y:1053
 #, c-format
 msgid "%s incorrectly after %s"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1208
 #, fuzzy, c-format
@@ -2765,11 +2765,11 @@ msgstr "Herdefinitie van '%s'"
 #: cobc/parser.y:1247
 #, c-format
 msgid "FUNCTION '%s' has no PROCEDURE DIVISION"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1372
 msgid "functions may not be defined within a program/function"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1426
 #, fuzzy, c-format
@@ -2793,22 +2793,22 @@ msgstr "Ongeldige expressie"
 
 #: cobc/parser.y:1562
 msgid "prototype has same name as current function and will be ignored"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1589
 #, c-format
 msgid "duplicate REPOSITORY entries for '%s' do not match"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1593
 #, c-format
 msgid "duplicate REPOSITORY entry for '%s'"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1658
 #, c-format
 msgid "ORGANIZATION %s is incompatible with RECORD DELIMITER"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1694 cobc/parser.y:2142 cobc/typeck.c:835
 #, fuzzy, c-format
@@ -2842,21 +2842,21 @@ msgstr "RENAMES mag niet verwijzen naar een 01 of > 50 nivo"
 
 #: cobc/parser.y:1733
 msgid "item may not be subordinate to any item with USAGE clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1735
 msgid "item may not be subordinate to any item with SIGN clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1780
 #, c-format
 msgid "illegal combination of %s with other clauses"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:1794
 #, c-format
 msgid "entry following %s may not be subordinate to it"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2042
 msgid "INITIAL specified on non-input field"
@@ -2864,15 +2864,15 @@ msgstr "INITIAL gespecificeerd op een niet-invoer veld"
 
 #: cobc/parser.y:2054
 msgid "relative LINE/COLUMN clause required with OCCURS"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2072
 msgid "FOR phrase cannot immediately follow ALL/LEADING/TRAILING"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2074
 msgid "missing CHARACTERS/ALL/LEADING/TRAILING phrase after FOR phrase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2081
 #, fuzzy
@@ -2881,7 +2881,7 @@ msgstr "ALL, LEADING of TRAILING verwacht voor '%s'"
 
 #: cobc/parser.y:2086
 msgid "missing FOR phrase before CHARACTERS/ALL/LEADING/TRAILING phrase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2093
 #, fuzzy
@@ -2890,31 +2890,31 @@ msgstr "ALL, LEADING of TRAILING verwacht voor '%s'"
 
 #: cobc/parser.y:2138
 msgid "use of condition-name in place of data-name"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2169
 msgid "cannot specify NO ADVANCING in screen DISPLAY"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2232 cobc/parser.y:2249
 msgid "non-standard DISPLAY"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2236
 msgid "screens may only be displayed on CRT"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2241 cobc/parser.y:2284
 msgid "cannot mix screens and fields in the same DISPLAY statement"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2245
 msgid "screen clauses may only be used for DISPLAY on CRT"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2290
 msgid "ambiguous DISPLAY; put items to display on device in separate DISPLAY"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2301
 #, fuzzy, c-format
@@ -2948,7 +2948,7 @@ msgstr "ANY LENGTH item hier niet toegestaan"
 #: cobc/parser.y:2353
 #, c-format
 msgid "item '%s' has wrong class for VALIDATE"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:2362
 #, fuzzy
@@ -2988,7 +2988,7 @@ msgstr "Uitvoerbaar programma gevraagd maar geen programma gevonden"
 
 #: cobc/parser.y:3717
 msgid "prototypes must be come before any program/function definitions"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:3930
 msgid "COMMON may only be used in a contained program"
@@ -2996,7 +2996,7 @@ msgstr "COMMON mag alleen worden gebruikt in een bijgesloten programma"
 
 #: cobc/parser.y:4017
 msgid "CALL prototypes"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:4192 cobc/parser.y:4471 cobc/parser.y:4517 cobc/parser.y:4632
 #: cobc/parser.y:4846 cobc/parser.y:4943 cobc/parser.y:4982 cobc/parser.y:5041
@@ -3009,7 +3009,7 @@ msgstr "%s niet toegestaan in ingesloten programma's"
 
 #: cobc/parser.y:4345
 msgid "segment-number must be in range of values 1 to 49"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:4357
 #, fuzzy
@@ -3018,7 +3018,7 @@ msgstr "Dubbele CLASSIFICATION clausule"
 
 #: cobc/parser.y:4436
 msgid "PROGRAM phrase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:4538 cobc/parser.y:4549 cobc/parser.y:4895
 #, fuzzy, c-format
@@ -3041,7 +3041,7 @@ msgstr "CLASS constante met THRU moet een grootte van 1 zijn"
 
 #: cobc/parser.y:5117
 msgid "separate currency symbol and currency string"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5150
 #, fuzzy, c-format
@@ -3050,32 +3050,32 @@ msgstr "Ongeldige ENTRY '%s'%s"
 
 #: cobc/parser.y:5377
 msgid "cannot use RELATIVE KEY clause on INDEXED files"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5381
 msgid "cannot use RECORD KEY clause on RELATIVE files"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5453
 msgid "EXTERNAL/DYNAMIC cannot be used with literals"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5473
 msgid "EXTERNAL/DYNAMIC cannot be used with USING/VARYING"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5484
 msgid "EXTERNAL/DYNAMIC cannot be used with DISK FROM"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5608
 msgid "ASSIGN EXTERNAL/DYNAMIC"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5724 cobc/parser.y:5921
 #, c-format
 msgid "%s only valid with ORGANIZATION %s"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5818 cobc/typeck.c:3818
 #, fuzzy, c-format
@@ -3084,7 +3084,7 @@ msgstr "'%s' is geen alfabet naam"
 
 #: cobc/parser.y:5854
 msgid "VSAM status"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:5988 cobc/parser.y:6013
 #, fuzzy, c-format
@@ -3100,11 +3100,11 @@ msgstr "OPEN I-O niet toegestaan bij LINE SEQUENTIAL bestanden"
 
 #: cobc/parser.y:6006
 msgid "LINE-SEQUENTIAL phrase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:6019
 msgid "BINARY-SEQUENTIAL phrase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:6027
 #, fuzzy
@@ -3115,15 +3115,15 @@ msgstr "RECORD clausule genegeerd voor LINE SEQUENTIAL"
 #: cobc/parser.y:6031
 #, c-format
 msgid "RECORD DELIMITER %s not recognized; will be ignored"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:6069
 msgid "DUPLICATES for primary keys"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:6313
 msgid "DOS/VS APPLY phrase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:6467
 msgid "RECORD description missing or invalid"
@@ -3150,7 +3150,7 @@ msgstr "LINAGE clausule met incorrect bestandstype"
 
 #: cobc/parser.y:6750
 msgid "RECORDING MODE U or S can only be used with RECORD SEQUENTIAL files"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:6787
 #, c-format
@@ -3210,15 +3210,15 @@ msgstr "Item %s vereist een veld naam"
 
 #: cobc/parser.y:7825
 msgid "a locale-format PICTURE string must only consist of '9', '.', '+', 'Z' and the currency-sign"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:7835
 msgid "DEPENDING clause needs either an OCCURS clause or a variable-length PICTURE"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:7841
 msgid "only USAGE DISPLAY may specify a variable-length PICTURE"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:7893 cobc/typeck.c:4916
 #, fuzzy, c-format
@@ -3240,7 +3240,7 @@ msgstr "Onbekende storing : %d"
 #: cobc/parser.y:8139
 #, c-format
 msgid "unknown HANDLE type: %s"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:8347
 #, fuzzy, c-format
@@ -3249,7 +3249,7 @@ msgstr "'%s' is niet in LINKAGE SECTION"
 
 #: cobc/parser.y:8448
 msgid "INDEXED should follow ASCENDING/DESCENDING"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:8658 cobc/parser.y:8660
 #, fuzzy, c-format
@@ -3258,12 +3258,12 @@ msgstr "Onverwachte grootte"
 
 #: cobc/parser.y:8709
 msgid "amount of entries in FROM and TO must match"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:8718
 #, c-format
 msgid "entry in FROM (%d) must be <= entry in TO (%d)"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:8985
 #, fuzzy, c-format
@@ -3274,7 +3274,7 @@ msgstr "%s alleen toegestaan op 01/77 nivo"
 #: cobc/parser.y:8989 cobc/parser.y:9011
 #, c-format
 msgid "%s and %s combination not allowed"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:9127
 msgid "GLOBAL is not allowed with RD"
@@ -3287,11 +3287,11 @@ msgstr "'%s' is geen bestandsnaam"
 
 #: cobc/parser.y:9686
 msgid "LINE with OCCURS is not supported"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:9726
 msgid "PLUS is not recommended with LEFT, RIGHT or CENTER"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:9728
 #, fuzzy
@@ -3301,24 +3301,24 @@ msgstr "GLOBAL is niet toegestaan met RD"
 
 #: cobc/parser.y:9766
 msgid "PLUS is ignored on first field of line"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:9797
 msgid "invalid COLUMN integer; must be > 0"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:9799
 msgid "COLUMN numbers should increase"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:9990 cobc/parser.y:9994
 msgid "screen positions from data-item"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:10153
 #, c-format
 msgid "missing %s"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:10840
 #, fuzzy
@@ -3332,7 +3332,7 @@ msgstr "GLOBAL is niet toegestaan met scherm items"
 
 #: cobc/parser.y:10904
 msgid "overriding convention specified in ENTRY-CONVENTION"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:10917
 #, fuzzy
@@ -3375,7 +3375,7 @@ msgstr "Ongeldige waarde voor SIZE"
 
 #: cobc/parser.y:11146
 msgid "MEMORY SIZE phrase in CALL statement"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11162
 msgid "OPTIONAL only allowed for BY REFERENCE items"
@@ -3387,7 +3387,7 @@ msgstr "RETURNING clausule is verplicht voor FUNCTION"
 
 #: cobc/parser.y:11183
 msgid "RETURNING clause cannot be OMITTED for main program"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11186
 #, fuzzy
@@ -3410,7 +3410,7 @@ msgstr "RETURNING item moet nivo 01"
 
 #: cobc/parser.y:11207
 msgid "function RETURNING item may not be ANY LENGTH"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11421
 #, fuzzy, c-format
@@ -3420,7 +3420,7 @@ msgstr "'%s' is geen report naam"
 #: cobc/parser.y:11424
 #, c-format
 msgid "unknown statement '%s'; it may exist in another dialect"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11428
 #, fuzzy, c-format
@@ -3444,7 +3444,7 @@ msgstr "SECTION segment ongeldig binnen DECLARATIVE"
 
 #: cobc/parser.y:11667 cobc/parser.y:11806
 msgid "non-standard ACCEPT"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11679
 #, fuzzy
@@ -3453,19 +3453,19 @@ msgstr "LOCK clausule ongeldig hier"
 
 #: cobc/parser.y:11683
 msgid "SIZE IS clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11907 cobc/parser.y:12226
 msgid "TIME-OUT or BEFORE TIME clauses"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11937 cobc/parser.y:11960 cobc/parser.y:11978
 msgid "AT screen-location"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:11979
 msgid "LINE or COLUMN"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:12358
 msgid "ALLOCATE CHARACTERS requires RETURNING clause"
@@ -3478,11 +3478,11 @@ msgstr "Teken genegeerd"
 
 #: cobc/parser.y:12375
 msgid "addressing mode should be either 24 or 31 bit"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:12446
 msgid "CALL to own PROGRAM-ID"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:12447
 #, fuzzy
@@ -3491,11 +3491,11 @@ msgstr "Recursieve programma aanroep - RECURSIVE attribute aangenomen"
 
 #: cobc/parser.y:12467
 msgid "STATIC CALL convention ignored because of ON EXCEPTION"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:12476
 msgid "ON EXCEPTION ignored because of STATIC CALL"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:12594 cobc/typeck.c:14450
 #, fuzzy
@@ -3504,7 +3504,7 @@ msgstr "Ongeldige mnemonic naam"
 
 #: cobc/parser.y:12618
 msgid "id/literal ignored, using prototype name"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:12624
 #, fuzzy
@@ -3527,16 +3527,16 @@ msgstr "RETURNING item is niet in LINKAGE SECTION en niet BASED"
 
 #: cobc/parser.y:12814 cobc/parser.y:17937 cobc/parser.y:18000
 msgid "NOT EXCEPTION before EXCEPTION"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:13572
 #, c-format
 msgid "HANDLE must be a %s HANDLE"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:13584
 msgid "HANDLE must be a generic HANDLE"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:13661
 #, fuzzy, c-format
@@ -3567,11 +3567,11 @@ msgstr "'%s' is geen report naam"
 
 #: cobc/parser.y:14056 cobc/parser.y:14066
 msgid "WHEN without imperative statement"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:14097 cobc/parser.y:14107
 msgid "WHEN OTHER without imperative statement"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:14191
 #, fuzzy
@@ -3610,15 +3610,15 @@ msgstr "EXIT PARAGRAPH is alleen geldig in een PARAGRAPH"
 
 #: cobc/parser.y:14497
 msgid "RETURNING/GIVING not allowed for non-returning runtime elements"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:14640
 msgid "IF without imperative statement"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:14983 cobc/parser.y:14992
 msgid "single-character literal or data item expected"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:15010
 #, fuzzy
@@ -3627,7 +3627,7 @@ msgstr "LINAGE clausule met incorrect bestandstype"
 
 #: cobc/parser.y:15126
 msgid "INSPECT missing ALL/FIRST/LEADING/TRAILING"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:15390
 #, fuzzy
@@ -3636,12 +3636,12 @@ msgstr "LOCK clausule ongeldig hier"
 
 #: cobc/parser.y:15547
 msgid "inline PERFORM without imperative statement"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:15670 cobc/parser.y:15678 cobc/parser.y:15686
 #, c-format
 msgid "PERFORM VARYING '%s' (line %d of %s) is not a numeric field"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:15702
 #, fuzzy
@@ -3688,7 +3688,7 @@ msgstr "'%s' is geen bestandsnaam"
 
 #: cobc/parser.y:16585
 msgid "MERGE requires USING files"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:16587
 #, fuzzy
@@ -3741,7 +3741,7 @@ msgstr "%s is verouderd in %s"
 
 #: cobc/parser.y:16825
 msgid "STOP literal"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:16829
 #, fuzzy
@@ -3788,43 +3788,43 @@ msgstr "Dubbele USE DEBUGGING ON ALL PROCEDURES"
 
 #: cobc/parser.y:17614
 msgid "ENCODING clause must come before XML-DECLARATION"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17616
 msgid "ENCODING clause must come before ATTRIBUTES"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17619
 msgid "XML GENERATE ENCODING clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17626
 msgid "XML-DECLARATION clause must come before ATTRIBUTES"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17629
 msgid "XML GENERATE XML-DECLARATION clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17635
 msgid "XML GENERATE WITH ATTRIBUTES clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17648
 msgid "XML GENERATE NAMESPACE clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17672
 msgid "XML GENERATE NAME OF clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17736
 msgid "XML GENERATE TYPE OF clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17777
 msgid "XML GENERATE SUPPRESS clause"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:17920
 #, fuzzy, c-format
@@ -3834,23 +3834,23 @@ msgstr "'%s' is niet een LOCALE naam"
 
 #: cobc/parser.y:18055
 msgid "NOT SIZE ERROR before SIZE ERROR"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:18109
 msgid "NOT OVERFLOW before OVERFLOW"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:18161 cobc/parser.y:18176
 msgid "NOT AT END before AT END"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:18229
 msgid "NOT AT END-OF-PAGE before AT END-OF-PAGE"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:18287
 msgid "NOT INVALID KEY before INVALID KEY"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:18644
 msgid "LINAGE-COUNTER must be qualified here"
@@ -3997,29 +3997,29 @@ msgstr "Geheel getal waarde"
 #: cobc/parser.y:19772
 #, c-format
 msgid "CLASS value %d outside of range for the used character set"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:19859
 msgid "PHYSICAL argument for LENGTH functions"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:20031 cobc/parser.y:20048
 msgid "cannot specify offset and SYSTEM-OFFSET at the same time"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:20228
 msgid "terminator"
-msgstr ""
+msgstr
 
 #: cobc/parser.y:20317 cobc/parser.y:20327 cobc/parser.y:20338
 #: cobc/parser.y:20348 cobc/parser.y:20369 cobc/parser.y:20389
 #: cobc/parser.y:20396
 msgid "optional period"
-msgstr ""
+msgstr
 
 #: cobc/pplex.l:261 cobc/pplex.l:2448 cobc/pplex.l:2462
 msgid "debugging indicator"
-msgstr ""
+msgstr
 
 #: cobc/pplex.l:348
 #, fuzzy
@@ -4053,12 +4053,12 @@ msgstr "ELSE statement zonder bijbehorende IF/ELIF"
 
 #: cobc/pplex.l:1332
 msgid "free format detected"
-msgstr ""
+msgstr
 
 #: cobc/pplex.l:1608
 #, c-format
 msgid "copybook not found in library '%s', library-name ignored"
-msgstr ""
+msgstr
 
 #: cobc/pplex.l:1667
 #, fuzzy, c-format
@@ -4089,7 +4089,7 @@ msgstr "Ongeldige interne case - %u"
 
 #: cobc/pplex.l:2139
 msgid "buffer overrun - too many continuation lines"
-msgstr ""
+msgstr
 
 #: cobc/pplex.l:2236 cobc/pplex.l:2246
 #, fuzzy
@@ -4099,11 +4099,11 @@ msgstr "Regel niet afgesloten met een newline"
 #: cobc/pplex.l:2240 cobc/pplex.l:2250
 #, c-format
 msgid "source text exceeds %d bytes, will be truncated"
-msgstr ""
+msgstr
 
 #: cobc/pplex.l:2269
 msgid "version control conflict marker in file"
-msgstr ""
+msgstr
 
 #: cobc/pplex.l:2423
 #, fuzzy
@@ -4137,11 +4137,11 @@ msgstr "Bron tekst na kolom %d"
 
 #: cobc/ppparse.y:102 cobc/ppparse.y:106
 msgid "partial replacing with literal"
-msgstr ""
+msgstr
 
 #: cobc/ppparse.y:109
 msgid "unexpected COBOL word in partial replacement phrase"
-msgstr ""
+msgstr
 
 #: cobc/ppparse.y:176
 #, fuzzy
@@ -4166,7 +4166,7 @@ msgstr "Ongeldig DEFINE/SET statement"
 #: cobc/ppparse.y:474
 #, c-format
 msgid "compiler flag '%s' unknown"
-msgstr ""
+msgstr
 
 #: cobc/ppparse.y:521
 #, fuzzy, c-format
@@ -4216,16 +4216,16 @@ msgstr "Parameter voor SYSTEM call is groter dan 8192 karakters"
 #: cobc/reserved.c:4166
 #, c-format
 msgid "reserved word (%s) may not contain '%c'"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:4183
 msgid "ignored asterisk at end of alias target"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:4248
 #, c-format
 msgid "alias target '%s' is not a default reserved word"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:4738
 #, fuzzy, c-format
@@ -4254,12 +4254,12 @@ msgstr "'%s' niet geïmplementeerd"
 
 #: cobc/reserved.c:5033 cobc/typeck.c:1178
 msgid "Parameters"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5037 cobc/reserved.c:5270 cobc/reserved.c:5417
 #: cobc/reserved.c:5423
 msgid "Yes"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5040 cobc/reserved.c:5273 cobc/reserved.c:5427
 #, fuzzy
@@ -4268,26 +4268,26 @@ msgstr "N"
 
 #: cobc/reserved.c:5046
 msgid "Unlimited"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5063
 msgid "Exception Name"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5165
 #, c-format
 msgid "special register '%s' is unknown, needs a definition"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5172
 #, c-format
 msgid "special register '%s' has a bad definition: %s"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5176
 #, c-format
 msgid "special register '%s' is unknown"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5266
 #, fuzzy
@@ -4311,7 +4311,7 @@ msgstr "GNU Cobol Bouw omgeving"
 
 #: cobc/reserved.c:5403
 msgid "Reserved Words"
-msgstr ""
+msgstr
 
 #: cobc/reserved.c:5415
 #, fuzzy
@@ -4330,7 +4330,7 @@ msgstr "'%s' gereserveerd woord, maar niet ondersteund"
 
 #: cobc/scanner.l:329
 msgid "separator period in Area A"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1096
 #, fuzzy, c-format
@@ -4339,7 +4339,7 @@ msgstr "Hier mag geen constante worden gebruikt - '%s'"
 
 #: cobc/scanner.l:1170
 msgid "ignoring redundant ."
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1249
 #, fuzzy, c-format
@@ -4379,20 +4379,20 @@ msgstr "Ongeldige X constante: %s"
 #: cobc/scanner.l:1365
 #, c-format
 msgid "character code %s out of encoding range %s"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1422
 msgid "extraneous separator ',' at end of symbolic EBCDIC characters"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1435
 msgid "extraneous character ',' in sequence of symbolic EBCDIC characters"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1440
 #, c-format
 msgid "invalid character '%c' in sequence of symbolic EBCDIC characters"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1470
 #, fuzzy, c-format
@@ -4402,7 +4402,7 @@ msgstr "Woord lengte overschrijdt 31 karakters - '%s'"
 #: cobc/scanner.l:1485
 #, c-format
 msgid "missing terminating %c character"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1502 cobc/scanner.l:1569 cobc/scanner.l:1868
 #, fuzzy
@@ -4421,7 +4421,7 @@ msgstr "Alfanumerieke constante heeft lengte nul"
 
 #: cobc/scanner.l:1519
 msgid "UTF-8 literal"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:1536 cobc/scanner.l:1537 cobc/scanner.l:1541
 #: cobc/scanner.l:1624
@@ -4514,32 +4514,32 @@ msgstr "Numeriek veld mag niet groter zijn dan %d cijfers"
 #: cobc/scanner.l:2182
 #, c-format
 msgid "exponent has decimal point"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2188 cobc/tree.c:3896
 #, c-format
 msgid "exponent has more than 4 digits"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2218
 #, c-format
 msgid "exponent not between -6143 and 6144"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2227
 #, c-format
 msgid "significand of 0 must be positive"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2232
 #, c-format
 msgid "exponent of 0 must be 0"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2237
 #, c-format
 msgid "exponent of 0 must be positive"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2399
 #, fuzzy, c-format
@@ -4569,11 +4569,11 @@ msgstr "'%s' gereserveerd woord, maar niet ondersteund"
 #: cobc/scanner.l:2525
 #, c-format
 msgid "'%s' is already reserved"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2527
 msgid "you may want MAKESYN instead"
-msgstr ""
+msgstr
 
 #: cobc/scanner.l:2552
 #, fuzzy, c-format
@@ -4582,7 +4582,7 @@ msgstr "'%s' is geen bestandsnaam"
 
 #: cobc/scanner.l:2553
 msgid "you may want ADDSYN or OVERRIDE instead"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:392
 #, c-format
@@ -4602,7 +4602,7 @@ msgstr "%s clausule is verplicht voor bestand '%s'"
 #: cobc/tree.c:427
 #, c-format
 msgid "FOR item '%s' is a record"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:436
 #, fuzzy, c-format
@@ -4612,7 +4612,7 @@ msgstr "END PROGRAM '%s' verschilt met PROGRAM-ID '%s'"
 #: cobc/tree.c:445
 #, c-format
 msgid "FOR item '%s' is not in a record associated with '%s'"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:559
 #, fuzzy
@@ -4696,72 +4696,72 @@ msgstr "Woord lengte overschrijdt 31 karakters - '%s'"
 
 #: cobc/tree.c:3103
 msgid "B, 0 or /"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3117
 msgid "the sign of the floating-point exponent"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3119
 msgid "a leading +/- sign"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3121
 msgid "a trailing +/- sign"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3123
 msgid "CR or DB"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3125
 msgid "a leading currency symbol"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3127
 msgid "a trailing currency symbol"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3129
 msgid "a Z or * which is before the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3131
 msgid "a Z or * which is after the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3133
 msgid "a floating +/- string which is before the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3135
 msgid "a floating +/- string which is after the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3137
 msgid "a floating currency symbol string which is before the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3139
 msgid "a floating currency symbol string which is after the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3143
 msgid "A or X"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3151
 msgid "a P which is before the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3153
 msgid "a P which is after the decimal point"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3176 cobc/tree.c:3638
 #, c-format
 msgid "%s may only occur once in a PICTURE string"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3178 cobc/tree.c:3570
 #, fuzzy, c-format
@@ -4775,28 +4775,28 @@ msgstr "Ongeldige optie gevonden"
 
 #: cobc/tree.c:3299
 msgid "number or constant in parentheses is not an unsigned integer"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3308
 #, c-format
 msgid "only up to %d significant digits are permitted within parentheses"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3316
 msgid "number or constant in parentheses must be greater than zero"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3327
 msgid "parentheses must be preceded by a picture symbol"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3353
 msgid "unbalanced parentheses"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3361
 msgid "parentheses must contain an unsigned integer"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3409
 #, fuzzy, c-format
@@ -4810,39 +4810,39 @@ msgstr "'%s' is geen heel getal"
 
 #: cobc/tree.c:3479
 msgid "missing PICTURE string"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3508
 msgid "C must be followed by R"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3511
 msgid "D must be followed by B"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3526 cobc/tree.c:3635 cobc/tree.c:3661 cobc/tree.c:3773
 msgid "uncommon parentheses"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3570
 msgid "exponent"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3625
 msgid "L must be at start of PICTURE string"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3643
 msgid "S must be at start of PICTURE string"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3699
 msgid "P must be at start or end of PICTURE string"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3730
 msgid "cannot have both Z and * in PICTURE string"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3808
 #, fuzzy, c-format
@@ -4852,11 +4852,11 @@ msgstr "Figuratieve constante ongeldig hier"
 #: cobc/tree.c:3841
 #, c-format
 msgid "PICTURE string may not contain more than %d characters; contains %d characters"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3846
 msgid "PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:3873
 #, fuzzy, c-format
@@ -4878,32 +4878,32 @@ msgstr "PICTURE clausule verplicht voor '%s'"
 #: cobc/tree.c:4412 cobc/tree.c:4425
 #, c-format
 msgid "no DETAIL line defined in report %s"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4427
 msgid "PAGE LIMIT FIRST DETAIL should be >= HEADING"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4430
 msgid "PAGE LIMIT FOOTING should be >= HEADING"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4432
 msgid "PAGE LIMIT LAST DETAIL should be >= FIRST DETAIL"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4434
 msgid "PAGE LIMIT FOOTING should be >= LAST DETAIL"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4436
 msgid "PAGE LIMIT LINES should be >= FOOTING"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4631 libcob/fileio.c:9358
 #, c-format
 msgid "maximum keys (%d/%d) exceeded for file '%s'"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4695 cobc/tree.c:4718
 #, fuzzy, c-format
@@ -4913,12 +4913,12 @@ msgstr "Ongeldig KEY item '%s'"
 #: cobc/tree.c:4729
 #, c-format
 msgid "minimal record length %d can not hold the key item '%s'; needs to be at least %d"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4764
 #, c-format
 msgid "missing file description for %s"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4813
 #, fuzzy, c-format
@@ -4927,7 +4927,7 @@ msgstr "Lengte van '%s' groter dan lengte van '%s'"
 
 #: cobc/tree.c:4816 cobc/tree.c:4833
 msgid "file size adjusted"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4828
 #, fuzzy, c-format
@@ -4936,7 +4936,7 @@ msgstr "Lengte van '%s' groter dan lengte van '%s'"
 
 #: cobc/tree.c:4861
 msgid "RECORD VARYING specified without limits, but implied limits are equal"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:4863
 #, fuzzy, c-format
@@ -4959,32 +4959,32 @@ msgstr "Lengte van '%s' groter dan lengte van '%s'"
 #: cobc/tree.c:5478
 #, c-format
 msgid "literal '%.38s' is longer than reference-modification of '%s'"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:5508
 #, c-format
 msgid "literal '%s' is alphanumeric but '%s' is numeric"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:5550
 #, c-format
 msgid "literal '%s' has more decimals than '%s'"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:5598
 #, c-format
 msgid "literal '%s' has more digits than '%s'"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:5646 cobc/tree.c:5676
 #, c-format
 msgid "unsigned '%s' may not be %s %s"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:5658 cobc/tree.c:5689
 #, c-format
 msgid "unsigned '%s' may always be %s %s"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:5726 cobc/tree.c:5756
 #, fuzzy, c-format
@@ -4994,7 +4994,7 @@ msgstr "'%s' kan hier niet worden geïndexeerd"
 #: cobc/tree.c:5738 cobc/tree.c:5768
 #, c-format
 msgid "'%s' may always be %s %s"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:5917
 #, fuzzy
@@ -5004,7 +5004,7 @@ msgstr "Ongeldige constante"
 #: cobc/tree.c:6001 cobc/tree.c:6008
 #, c-format
 msgid "%s should be COMP-X/COMP-5 for logical operator"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6283
 #, fuzzy, c-format
@@ -5013,7 +5013,7 @@ msgstr "Ongeldige expressie"
 
 #: cobc/tree.c:6286
 msgid "invalid expression: boolean expected with logical operator"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6330
 #, fuzzy, c-format
@@ -5023,20 +5023,20 @@ msgstr "Onverwachte operator -> %d"
 #: cobc/tree.c:6341
 #, c-format
 msgid "expression '%.38s' %s '%.38s' is always TRUE"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6347
 msgid "expression is always TRUE"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6360
 #, c-format
 msgid "expression '%.38s' %s '%.38s' is always FALSE"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6366
 msgid "expression is always FALSE"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6588
 #, fuzzy
@@ -5057,15 +5057,15 @@ msgstr "BY CONTENT aangenomen voor alfanumeriek item"
 
 #: cobc/tree.c:6740
 msgid "PERFORM FOREVER since UNTIL is always FALSE"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6744
 msgid "PERFORM ONCE since UNTIL is always TRUE"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6747
 msgid "PERFORM NEVER since UNTIL is always TRUE"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:6871
 #, fuzzy, c-format
@@ -5098,7 +5098,7 @@ msgstr "FUNCTION '%s' heeft een ongeldige parameter"
 #: cobc/tree.c:6978
 #, c-format
 msgid "either all arguments or none should be of type %s"
-msgstr ""
+msgstr
 
 #: cobc/tree.c:7010 cobc/tree.c:7016 cobc/tree.c:7057 cobc/tree.c:7063
 #, c-format
@@ -5134,7 +5134,7 @@ msgstr "FUNCTION '%s' heeft een ongeldige eerste parameter"
 #: cobc/typeck.c:590
 #, c-format
 msgid "%s should be COMP-5/COMP-X for logical operator"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:856
 #, fuzzy, c-format
@@ -5175,12 +5175,12 @@ msgstr "GNU Cobol Bouw omgeving"
 #: cobc/typeck.c:2037 libcob/call.c:1172
 #, c-format
 msgid "'%s' literal includes leading spaces which are omitted"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:2041
 #, c-format
 msgid "'%s' literal includes trailing spaces which are omitted"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:2108
 msgid "ON/OFF usage requires a SWITCH name"
@@ -5225,7 +5225,7 @@ msgstr "'%s' vereist %d indices"
 #: cobc/typeck.c:2380
 #, c-format
 msgid "'%s' (accessed by '%s')"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:2399 cobc/typeck.c:4987
 #, fuzzy, c-format
@@ -5247,11 +5247,11 @@ msgstr "Start positie van '%s' buiten grens: %d"
 
 #: cobc/typeck.c:2458
 msgid "suspicious reference-modification: always using max. position"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:2475
 msgid "suspicious reference-modification: always using max. length"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:2615
 #, c-format
@@ -5290,7 +5290,7 @@ msgstr "88 nivo item hier niet toegestaan"
 #: cobc/typeck.c:2906
 #, c-format
 msgid "VALUE of '%s': %s target '%s' is invalid"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:2908 cobc/typeck.c:2974
 #, fuzzy
@@ -5346,12 +5346,12 @@ msgstr "herdefinitie van '%s'"
 #: cobc/typeck.c:3389 cobc/typeck.c:3486
 #, c-format
 msgid "parameters #%d ('%s' in the definition and '%s' in the prototype) differ"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3393
 #, c-format
 msgid "returning items ('%s' in the definition and '%s' in the prototype) differ"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3429
 #, fuzzy
@@ -5370,11 +5370,11 @@ msgstr "Aantal parameters overschrijdt maximum %d"
 
 #: cobc/typeck.c:3506
 msgid "definition has a RETURNING item but prototype does not"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3510
 msgid "definition does not have a RETURNING item but prototype does"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3560
 #, fuzzy, c-format
@@ -5389,37 +5389,37 @@ msgstr "NULL parameter doorgegeven aan '%s'"
 #: cobc/typeck.c:3589
 #, c-format
 msgid "expected argument #%d, %s, to be passed BY REFERENCE/CONTENT"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3608 cobc/typeck.c:3733 cobc/typeck.c:3736
 #, c-format
 msgid "argument #%d is not optional"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3622
 #, c-format
 msgid "argument #%d must be at least %d bytes long"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3637
 #, c-format
 msgid "argument #%d is a different type of pointer than the parameter"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3644
 #, c-format
 msgid "argument #%d is ANY LENGTH, but expecting a fixed size item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3672
 #, c-format
 msgid "argument #%d, %s, does not conform to the parameter definition"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3719
 #, c-format
 msgid "expecting up to %d arguments, but found %d"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:3752
 #, fuzzy
@@ -5439,7 +5439,7 @@ msgstr "Onverwacht CONSTANT item"
 
 #: cobc/typeck.c:3767
 msgid "expecting a RETURNING item, but none provided"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4091
 #, fuzzy, c-format
@@ -5473,7 +5473,7 @@ msgstr "Ongeldig RECORD DEPENDING item"
 
 #: cobc/typeck.c:4415
 msgid "RECORD DEPENDING must reference a data-item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4438
 #, fuzzy, c-format
@@ -5488,27 +5488,27 @@ msgstr "Numeriek veld mag niet groter zijn dan %d cijfers"
 #: cobc/typeck.c:4460
 #, c-format
 msgid "file %s: RELATIVE KEY %s must be integer"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4465
 #, c-format
 msgid "file %s: RELATIVE KEY %s must be unsigned"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4472
 #, c-format
 msgid "file %s: RELATIVE KEY %s cannot have OCCURS"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4478
 #, c-format
 msgid "RELATIVE KEY %s cannot be in file record belonging to %s"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4487
 #, c-format
 msgid "file %s: RELATIVE KEY %s declared outside WORKING-STORAGE"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4509 cobc/typeck.c:8833
 #, c-format
@@ -5538,12 +5538,12 @@ msgstr "'%s' is niet gedefinieerd"
 #: cobc/typeck.c:4562
 #, c-format
 msgid "FILE STATUS '%s' may not be a decimal or have a PIC with a P"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4567
 #, c-format
 msgid "FILE STATUS '%s' is a numeric field, but I-O status codes are not numeric in general"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4571
 #, fuzzy, c-format
@@ -5568,7 +5568,7 @@ msgstr "RECORD DEPENDING item moet in WORKING/LOCAL/LINKAGE sectie"
 #: cobc/typeck.c:4599
 #, c-format
 msgid "FILE STATUS '%s' may not be located after an OCCURS DEPENDING field"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4613
 #, fuzzy, c-format
@@ -5578,7 +5578,7 @@ msgstr "'%s' wordt impliciet gedefinieerd"
 
 #: cobc/typeck.c:4703
 msgid "ASSIGN variable"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4708
 #, fuzzy, c-format
@@ -5618,7 +5618,7 @@ msgstr "'%s' ODO item moet GLOBAL attribute hebben"
 #: cobc/typeck.c:4894
 #, c-format
 msgid "PASSWORD '%s' for EXTERNAL file '%s' must have EXTERNAL attribute"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:4932
 #, fuzzy, c-format
@@ -5687,7 +5687,7 @@ msgstr "Ongeldige verwijzing naar '%s' (In DECLARATIVES)"
 #: cobc/typeck.c:5162
 #, c-format
 msgid "GO TO paragraph '%s' which is defined in another SECTION"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:5172
 #, fuzzy, c-format
@@ -5697,7 +5697,7 @@ msgstr "'%s' geen procedure naam"
 #: cobc/typeck.c:5207
 #, c-format
 msgid "%s and %s are not in the same SECTION"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:5212
 #, fuzzy, c-format
@@ -5747,16 +5747,16 @@ msgstr "Interne decimal structuur grootte overschrijdt - %d"
 
 #: cobc/typeck.c:6123
 msgid "Try to minimize the number of parentheses or split into multiple computations."
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:6147
 #, c-format
 msgid "more than %d nested expressions"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:6188
 msgid "precision of result may change with arithmetic-osvs"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:6268
 #, fuzzy, c-format
@@ -5766,7 +5766,7 @@ msgstr "Onverwachte operatie %d"
 #: cobc/typeck.c:6273
 #, c-format
 msgid "%s operator may be misplaced"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:6349
 #, fuzzy
@@ -5796,7 +5796,7 @@ msgstr "Ongeldige expressie"
 #: cobc/typeck.c:7312
 #, c-format
 msgid "more than %d nested conditions"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:7667 cobc/typeck.c:7748
 #, fuzzy
@@ -5805,7 +5805,7 @@ msgstr "Geen CORRESPONDING items gevonden"
 
 #: cobc/typeck.c:7820
 msgid "no items to ACCEPT found"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:7870
 #, fuzzy
@@ -5814,7 +5814,7 @@ msgstr "Ongeldig type voor DISPLAY operand"
 
 #: cobc/typeck.c:7981
 msgid "cannot specify figurative constant ZERO in AT clause"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:7985
 #, fuzzy
@@ -5854,7 +5854,7 @@ msgstr "Ongeldige invoer apparaat '%s'"
 #: cobc/typeck.c:8502 cobc/typeck.c:9712
 #, c-format
 msgid "unknown device '%s'; it may exist in another dialect"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:8505 cobc/typeck.c:9715
 #, fuzzy, c-format
@@ -5870,7 +5870,7 @@ msgstr "Doel van RETURNING is geen data pointer"
 #: cobc/typeck.c:13547
 #, c-format
 msgid "cannot change address of '%s', which is not BASED or a LINKAGE item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:8557
 #, fuzzy
@@ -5879,7 +5879,7 @@ msgstr "Doel van ALLOCATE is geen BASED item"
 
 #: cobc/typeck.c:8591 cobc/typeck.c:9023
 msgid "amount must be specified as a numeric expression"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:8597
 msgid "INITIALIZED TO item is not alphanumeric"
@@ -5910,7 +5910,7 @@ msgstr "STATIC CALL conventie vereist een constante als programma naam"
 #: cobc/typeck.c:8708 cobc/typeck.c:12746 cobc/typeck.c:13681
 #: cobc/typeck.c:14077
 msgid "HANDLE must be either a generic or a THREAD HANDLE"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:8726
 #, fuzzy
@@ -5952,11 +5952,11 @@ msgstr "%s niet toegestaan bij %s bestanden"
 
 #: cobc/typeck.c:9172
 msgid "positions cannot be specified for main windows"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:9183 cobc/typeck.c:9187 cobc/typeck.c:9211
 msgid "HANDLE must be either a generic or a WINDOW HANDLE or X(10)"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:9324
 #, c-format
@@ -6061,7 +6061,7 @@ msgstr "Grootte van de waarde overschrijdt de data grootte"
 #: cobc/typeck.c:10500
 #, c-format
 msgid "value is %s"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:10824
 #, fuzzy
@@ -6070,7 +6070,7 @@ msgstr "Figuratieve constante ongeldig hier"
 
 #: cobc/typeck.c:10839
 msgid "MOVE of figurative constant QUOTE to numeric item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:10844 cobc/typeck.c:10855
 #, fuzzy
@@ -6079,7 +6079,7 @@ msgstr "Figuratieve constante ongeldig hier"
 
 #: cobc/typeck.c:10936
 msgid "numeric literal in VALUE clause of numeric-edited item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:10966
 #, fuzzy
@@ -6192,7 +6192,7 @@ msgstr "Figuratieve constante ongeldig hier"
 
 #: cobc/typeck.c:12987
 msgid "literal in FROM clause must be alphanumeric, utf-8, national or boolean"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:13010 cobc/typeck.c:14305
 #, fuzzy, c-format
@@ -6215,7 +6215,7 @@ msgstr "Ongeldige SEARCH ALL conditie"
 
 #: cobc/typeck.c:13231
 msgid "SEARCH ALL requires comparision of KEY field"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:13354 cobc/typeck.c:13361
 msgid "SET targets must be PROGRAM-POINTER"
@@ -6224,12 +6224,12 @@ msgstr "SET doelen moeten PROGRAM-POINTER zijn"
 #: cobc/typeck.c:13386
 #, c-format
 msgid "SET target '%s' is not numeric, an INDEX or a POINTER"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:13403 cobc/typeck.c:13475 cobc/typeck.c:13543
 #, c-format
 msgid "cannot change address of '%s', which is not level 1 or 77"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:13500
 #, fuzzy, c-format
@@ -6240,7 +6240,7 @@ msgstr "SET doelen moeten PROGRAM-POINTER zijn"
 #: cobc/typeck.c:13569
 #, c-format
 msgid "SET target '%s' is not a POINTER for FCD-KEYDEF"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:13663
 #, fuzzy
@@ -6249,7 +6249,7 @@ msgstr "Veld heeft geen FALSE clausule"
 
 #: cobc/typeck.c:13694
 msgid "THREAD-priority must be between 1 and 32767"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:13714
 msgid "SET ATTRIBUTE requires a screen item as subject"
@@ -6285,7 +6285,7 @@ msgstr "'%s' is geen heel getal"
 #: cobc/typeck.c:14121
 #, c-format
 msgid "%s item '%s' may not have PICTURE with P in it"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14137
 #, fuzzy, c-format
@@ -6304,11 +6304,11 @@ msgstr "LOCK clausule ongeldig hier"
 
 #: cobc/typeck.c:14606
 msgid "data item is not part of a report"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14626
 msgid "improper use of SUPPRESS PRINTING"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14642
 #, fuzzy, c-format
@@ -6318,27 +6318,27 @@ msgstr "'%s' is geen numerieke waarde"
 #: cobc/typeck.c:14652
 #, c-format
 msgid "%s may not be a figurative constant"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14690
 #, c-format
 msgid "%s must be a child of the input record"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14715
 #, c-format
 msgid "%s may not be an ignored item in JSON/XML GENERATE"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14725
 #, c-format
 msgid "%s must be elementary"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14737
 #, c-format
 msgid "STRING item '%s' must be USAGE DISPLAY or NATIONAL"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14749
 #, fuzzy, c-format
@@ -6352,11 +6352,11 @@ msgstr "'%s' is geen heel getal"
 
 #: cobc/typeck.c:14776 cobc/typeck.c:14782
 msgid "JSON/XML GENERATE receiving item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14779
 msgid "JSON/XML GENERATE receiving item may not have JUSTIFIED clause"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14867
 #, fuzzy
@@ -6366,70 +6366,70 @@ msgstr "'%s' accepteert geen verwijzingsmodificatie"
 
 #: cobc/typeck.c:14873
 msgid "JSON/XML GENERATE input record may not have RENAMES clause"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14878
 #, c-format
 msgid "all the children of '%s' are ignored in JSON/XML GENERATE"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14885
 msgid "JSON/XML GENERATE input record has subrecords with non-unique names"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14890
 msgid "floating-point items in JSON/XML GENERATE"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14894
 msgid "OCCURS items in JSON/XML GENERATE"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14941
 msgid "NAMESPACE must be a valid URI"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:14985
 msgid "NAMESPACE-PREFIX must be a valid XML name"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15014 cobc/typeck.c:15022
 msgid "NAME OF item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15019
 msgid "NAME OF item must be the input record or a child of it"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15029
 msgid "NAME OF ... OMITTED only valid for source identifier"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15037
 #, c-format
 msgid "NAME OF literal must be a valid %s identifier"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15062 cobc/typeck.c:15063 cobc/typeck.c:15066
 #: cobc/typeck.c:15070
 msgid "TYPE OF item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15088
 msgid "SUPPRESS WHEN SPACE item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15091
 msgid "SUPPRESS WHEN LOW-VALUE item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15093
 msgid "SUPPRESS WHEN HIGH-VALUE item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15122 cobc/typeck.c:15130 cobc/typeck.c:15134
 msgid "SUPPRESS item"
-msgstr ""
+msgstr
 
 #: cobc/typeck.c:15126
 #, fuzzy
@@ -6438,11 +6438,11 @@ msgstr "Waarschuw bij EXTERNAL item met VALUE clausule"
 
 #: cobc/typeck.c:15204
 msgid "WITH ATTRIBUTES specified, but no attributes can be generated"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:31
 msgid "  -Wadditional          additional warnings only raised with -Wall"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:34
 #, fuzzy
@@ -6456,11 +6456,11 @@ msgstr "Waarschuw indien verouderde opties worden gebruikt"
 
 #: cobc/warning.def:40
 msgid "  -Wno-repository-checks\tdo not warn/check for program/function/external signature mismatch"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:43
 msgid "  -Wno-ignored-error    do not warn about errors in code parts which are unreachable and so normally ignored"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:46
 #, fuzzy
@@ -6474,11 +6474,11 @@ msgstr "Waarschuw indien verouderde opties worden gebruikt"
 
 #: cobc/warning.def:52
 msgid "  -Wredefinition        warn about non-referenced ambiguous data items"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:55
 msgid "  -Wtruncate            warn about field truncation from constant assignments"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:58
 #, fuzzy
@@ -6492,7 +6492,7 @@ msgstr "Waarschuw bij overlappende MOVE items"
 
 #: cobc/warning.def:64
 msgid "  -Wpossible-overlap    warn about MOVE of items that may overlap depending on variables"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:67
 #, fuzzy
@@ -6501,15 +6501,15 @@ msgstr "Waarschuw bij ontbrekende haken rond AND binnen OR"
 
 #: cobc/warning.def:70
 msgid "  -Wstrict-typing       warn strictly about type mismatch, even when same size"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:73
 msgid "  -Wtyping              warn about type mismatch"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:76
 msgid "  -Wimplicit-define     warn whenever data items are implicitly defined"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:79
 #, fuzzy
@@ -6523,11 +6523,11 @@ msgstr "Eerste VALUE clausule genegeerd voor EXTERNAL item"
 
 #: cobc/warning.def:85
 msgid "  -Wprototypes          warn about missing FUNCTION prototypes/definitions"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:88
 msgid "  -Warithmetic-osvs     warn if arithmetic expression precision has changed"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:91
 #, fuzzy
@@ -6536,15 +6536,15 @@ msgstr "Waarschuw bij niet 01/77 items als CALL parameter"
 
 #: cobc/warning.def:94
 msgid "  -Wconstant-expression  warn about expressions that always resolve to true/false"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:97
 msgid "  -Wconstant-numlit-expression\twarn about numeric expressions that always resolve to true/false"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:100
 msgid "  -Wlarger-01-redefines  warn about larger redefines allowed by COBOL standards"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:103
 #, fuzzy
@@ -6563,39 +6563,39 @@ msgstr "Waarschuw bij zwevende LINKAGE items"
 
 #: cobc/warning.def:112
 msgid "  -Wunreachable         warn about likely unreachable statements"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:115
 msgid "  -Wno-dialect          do not warn about dialect specific issues"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:118
 msgid "  -Wno-goto-section     do not warn about GO TO section-name"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:121
 msgid "  -Wgoto-different-section\twarn about GO TO a praragraph defined in a different section"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:124
 msgid "  -Wsuspicious-perform-thru\twarn if PERFORM THRU references procedures not in ascending order or multiple sections"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:127
 msgid "  -Wdangling-text       warn about source text after program-area"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:130
 msgid "  -Wno-missing-newline  do not warn about missing newlines"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:133
 msgid "  -Wno-others           do not warn about different issues"
-msgstr ""
+msgstr
 
 #: cobc/warning.def:136
 msgid "  -Wno-unsupported      do not warn if runtime does not support a feature used"
-msgstr ""
+msgstr
 
 #: libcob/call.c:98
 #, c-format
@@ -6605,7 +6605,7 @@ msgstr "LoadLibrary/GetProcAddress fout %d"
 #: libcob/call.c:626
 #, c-format
 msgid "preloading from existing path '%s' failed; %s"
-msgstr ""
+msgstr
 
 #: libcob/call.c:817
 #, fuzzy, c-format
@@ -6622,7 +6622,7 @@ msgstr "PROGRAM naam overschrijdt 31 karakters"
 #: libcob/call.c:945 libcob/call.c:978
 #, c-format
 msgid "loading from existing path '%s' failed; %s"
-msgstr ""
+msgstr
 
 #: libcob/call.c:1049
 #, fuzzy
@@ -6657,7 +6657,7 @@ msgstr "Aanroep van 'cob_longjmp' zonder voorafgaande 'cob_setjmp'"
 #: libcob/call.c:1608
 #, c-format
 msgid "preloading of '%s' failed"
-msgstr ""
+msgstr
 
 #: libcob/call.c:1706 libcob/call.c:1733 libcob/common.c:8965
 msgid "cob_init() has not been called"
@@ -6666,7 +6666,7 @@ msgstr "cob_init() is niet aangeroepen"
 #: libcob/call.c:1712
 #, c-format
 msgid "parameter %d is not within range of %d"
-msgstr ""
+msgstr
 
 #: libcob/call.c:1718
 #, fuzzy, c-format
@@ -6675,7 +6675,7 @@ msgstr "NULL parameter doorgegeven aan '%s'"
 
 #: libcob/call.c:2045
 msgid "NULL field"
-msgstr ""
+msgstr
 
 #: libcob/call.c:2053
 #, fuzzy
@@ -6685,12 +6685,12 @@ msgstr "Bestand nog niet geopend"
 #: libcob/call.c:2119
 #, c-format
 msgid "attempt to over-write constant field with '%s'"
-msgstr ""
+msgstr
 
 #: libcob/call.c:2161 libcob/call.c:2219 libcob/call.c:2270
 #, c-format
 msgid "attempt to over-write constant parameter %d with '%s'"
-msgstr ""
+msgstr
 
 #: libcob/cobgetopt.c:330
 #, fuzzy, c-format
@@ -6730,23 +6730,23 @@ msgstr "%s: optie verwacht een argument -- %c\n"
 #: libcob/common.c:1074
 #, c-format
 msgid "requested coredump creation failed with status %d"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1303
 msgid "fatal arithmetic error"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1306
 msgid "interrupt from keyboard"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1310
 msgid "hangup"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1314
 msgid "quit"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1318
 #, fuzzy
@@ -6755,15 +6755,15 @@ msgstr "Herdefinitie van '%s'"
 
 #: libcob/common.c:1322
 msgid "emt termination"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1326
 msgid "broken pipe"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1330
 msgid "I/O signal"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1334
 #, fuzzy
@@ -6777,19 +6777,19 @@ msgstr "Fout: "
 
 #: libcob/common.c:1342
 msgid "illegal instruction"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1346
 msgid "abort"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1350
 msgid "process killed"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1354
 msgid "alarm signal"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1358
 #, fuzzy
@@ -6798,17 +6798,17 @@ msgstr "Voorverwerking:"
 
 #: libcob/common.c:1362 libcob/common.c:1366
 msgid "child process stopped"
-msgstr ""
+msgstr
 
 #. TRANSLATORS: This msgid is used for an OS signal like SIGABRT.
 #: libcob/common.c:1373
 msgid "signal"
-msgstr ""
+msgstr
 
 #. TRANSLATORS: This msgid is shown for a requested but not complete stack trace.
 #: libcob/common.c:1375
 msgid "(more COBOL runtime elements follow...)"
-msgstr ""
+msgstr
 
 #: libcob/common.c:1377 libcob/common.c:8922
 #, fuzzy, c-format
@@ -6836,7 +6836,7 @@ msgstr "CALL naar %s vereist %d parameters"
 #: libcob/common.c:4141
 #, c-format
 msgid "code execution leaving %s"
-msgstr ""
+msgstr
 
 #: libcob/common.c:4151
 #, fuzzy, c-format
@@ -6846,23 +6846,23 @@ msgstr "BASED/LINKAGE item '%s' heeft een NULL adres"
 #: libcob/common.c:4168
 #, c-format
 msgid "memory violation detected for '%s' after %s"
-msgstr ""
+msgstr
 
 #: libcob/common.c:4171
 #, c-format
 msgid "memory violation detected after %s"
-msgstr ""
+msgstr
 
 #: libcob/common.c:4229 libcob/common.c:4244 libcob/common.c:4283
 #: libcob/common.c:4287
 #, c-format
 msgid "LINKAGE item %s not passed by caller"
-msgstr ""
+msgstr
 
 #: libcob/common.c:4253
 #, c-format
 msgid "LINKAGE item %s (size %lu) too small in the caller (size %lu)"
-msgstr ""
+msgstr
 
 #: libcob/common.c:4378
 #, fuzzy, c-format
@@ -6888,7 +6888,7 @@ msgstr "Index van '%s' buiten grens: %d"
 #: libcob/common.c:4441
 #, c-format
 msgid "current maximum subscript for '%s': %d"
-msgstr ""
+msgstr
 
 #: libcob/common.c:4465
 #, fuzzy, c-format
@@ -6913,11 +6913,11 @@ msgstr "EXTERNAL item '%s' eerder toegewezen met grootte %d, gevraagde grootte i
 #: libcob/common.c:4961 libcob/common.c:5201
 #, c-format
 msgid "COB_CURRENT_DATE '%s' is invalid"
-msgstr ""
+msgstr
 
 #: libcob/common.c:6321 libcob/common.c:6324
 msgid "Program abandoned at user request"
-msgstr ""
+msgstr
 
 #: libcob/common.c:6348
 #, fuzzy, c-format
@@ -6927,7 +6927,7 @@ msgstr "Parameter voor SYSTEM call is groter dan 8192 karakters"
 #: libcob/common.c:6998
 #, c-format
 msgid "error '%s' during CBL_GC_FORK"
-msgstr ""
+msgstr
 
 #: libcob/common.c:7003 libcob/common.c:7100
 #, fuzzy, c-format
@@ -6937,56 +6937,56 @@ msgstr "'%s' niet ondersteund"
 #: libcob/common.c:7029
 #, c-format
 msgid "error '%s' for P%d during CBL_GC_WAITPID"
-msgstr ""
+msgstr
 
 #: libcob/common.c:7220
 msgid "call to CBL_GC_GETOPT with wrong longoption size"
-msgstr ""
+msgstr
 
 #: libcob/common.c:7225
 msgid "call to CBL_GC_GETOPT with missing longind"
-msgstr ""
+msgstr
 
 #: libcob/common.c:7654 libcob/common.c:7675 libcob/common.c:7688
 #: libcob/common.c:9924 libcob/common.c:9928
 #, c-format
 msgid "(default)"
-msgstr ""
+msgstr
 
 #: libcob/common.c:7973 libcob/common.c:7992
 msgid "should be unsigned"
-msgstr ""
+msgstr
 
 #: libcob/common.c:7981 libcob/common.c:8030
 msgid "should be numeric"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8039
 #, c-format
 msgid "minimum value: %lu"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8069 libcob/common.c:8640 libcob/common.c:8654
 #: bin/cobcrun.c:206
 #, c-format
 msgid "should not contain '%c'"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8150 libcob/common.c:8169 libcob/common.c:8231
 #: libcob/common.c:8240 libcob/common.c:8248 libcob/common.c:8273
 #, c-format
 msgid "not set"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8223 libcob/common.c:8226 libcob/common.c:8229
 #, c-format
 msgid "set by %s"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8367
 #, c-format
 msgid "WARNING - '%s' without a value - ignored!"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8370
 #, fuzzy, c-format
@@ -6996,7 +6996,7 @@ msgstr "'%s' is geen numerieke waarde"
 #: libcob/common.c:8397
 #, c-format
 msgid "WARNING - '%s %s' without a value - ignored!"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8906
 #, fuzzy
@@ -7010,7 +7010,7 @@ msgstr "CANCEL poging op een actief programma"
 
 #: libcob/common.c:8975
 msgid "CALL of program with CHAINING clause"
-msgstr ""
+msgstr
 
 #: libcob/common.c:8979
 #, fuzzy
@@ -7035,7 +7035,7 @@ msgstr "ongeldige ingang in module"
 #: libcob/common.c:9000
 #, c-format
 msgid "recursive CALL from '%s' to '%s' which is NOT RECURSIVE"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9005
 #, fuzzy, c-format
@@ -7089,7 +7089,7 @@ msgstr "Toestemming geweigerd"
 
 #: libcob/common.c:9047
 msgid "mismatch of fixed file attributes"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9050
 #, fuzzy
@@ -7112,7 +7112,7 @@ msgstr "Record overflow"
 
 #: libcob/common.c:9062
 msgid "READ after unsuccessful READ/START"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9065
 #, fuzzy
@@ -7121,7 +7121,7 @@ msgstr "READ/START niet toegestaan"
 
 #: libcob/common.c:9068
 msgid "WRITE not allowed, file not open for output"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9071
 #, fuzzy
@@ -7185,7 +7185,7 @@ msgstr "Poging om een niet geïmplementeerde functie te gebruiken"
 
 #: libcob/common.c:9162
 msgid "environment variables"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9283 libcob/common.c:9356 libcob/common.c:9371
 #: libcob/common.c:9676 libcob/common.c:9710 libcob/common.c:9727
@@ -7199,7 +7199,7 @@ msgstr "C versie %s%s"
 #: libcob/common.c:9679 libcob/common.c:9730 libcob/common.c:9745
 #, c-format
 msgid "%s, version %d.%d.%d (compiled with %d.%d)"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9288
 #, fuzzy, c-format
@@ -7210,7 +7210,7 @@ msgstr "C versie %s%s"
 #: libcob/common.c:9556
 #, c-format
 msgid "License LGPLv3+: GNU LGPL version 3 or later <%s>"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9620 libcob/common.c:9622
 #, fuzzy
@@ -7219,7 +7219,7 @@ msgstr "Dynamisch laden"
 
 #: libcob/common.c:9755
 msgid "mouse support"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9772
 #, fuzzy
@@ -7238,7 +7238,7 @@ msgstr "GNU Cobol Bouw omgeving"
 
 #: libcob/common.c:9775
 msgid "Miscellaneous"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9776
 #, fuzzy
@@ -7252,30 +7252,30 @@ msgstr "GNU Cobol Bouw omgeving"
 
 #: libcob/common.c:9782
 msgid "via"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9857 libcob/common.c:9885
 msgid "... removed from environment"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9911 libcob/common.c:9913
 #, c-format
 msgid "(set by %s)"
-msgstr ""
+msgstr
 
 #: libcob/common.c:9921
 #, c-format
 msgid "(reset)"
-msgstr ""
+msgstr
 
 #: libcob/common.c:10151
 msgid "compiler was not built with --enable-debug-log; COB_DEBUG_LOG ignored"
-msgstr ""
+msgstr
 
 #: libcob/common.c:10338 libcob/common.c:10364
 #, c-format
 msgid "%s called with unknown option: %d"
-msgstr ""
+msgstr
 
 #. TRANSLATORS: This msgid is shown for a requested but empty stack trace.
 #: libcob/common.c:10411
@@ -7286,17 +7286,17 @@ msgstr "'cobcommandline' - Runtime is niet geïnitialiseerd"
 #: libcob/common.c:10734
 #, c-format
 msgid "Module dump due to %s"
-msgstr ""
+msgstr
 
 #: libcob/common.c:10762
 #, c-format
 msgid "Dump Program-Id %s from %s compiled %s"
-msgstr ""
+msgstr
 
 #: libcob/common.c:10788
 #, c-format
 msgid "dump written to %s"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:784 libcob/fileio.c:1664 libcob/fileio.c:1926
 #: libcob/fileio.c:3938 libcob/fileio.c:4522 libcob/fileio.c:10049
@@ -7330,22 +7330,22 @@ msgstr "BDB fout: %s %s"
 #: libcob/fileio.c:6199
 #, c-format
 msgid "ERROR FILE %s has ASSIGN field is NULL"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:7050
 #, c-format
 msgid "call to CBL_OPEN_FILE with wrong access mode: %d"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:7135
 #, c-format
 msgid "call to CBL_CREATE_FILE with wrong file_lock: %d"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:7138
 #, c-format
 msgid "call to CBL_CREATE_FILE with wrong file_dev: %d"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:7362 libcob/fileio.c:7645
 #, fuzzy, c-format
@@ -7367,7 +7367,7 @@ msgstr "WAARSCHUWING - Impliciete CLOSE van %s ('%s')"
 #: libcob/fileio.c:10008 libcob/fileio.c:10193
 #, c-format
 msgid "ERROR: EXTFH called with FCD version %d"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:10310
 #, fuzzy, c-format
@@ -7378,57 +7378,57 @@ msgstr "REPORT clausule met incorrect bestandstype"
 #: libcob/fileio.c:10317
 #, c-format
 msgid "ERROR: EXTFH called with no %s pointer"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:10461
 #, c-format
 msgid "ERROR: EXTFH called with no %s pointer; Function %d"
-msgstr ""
+msgstr
 
 #: libcob/fileio.c:10683
 #, c-format
 msgid "ERROR: EXTFH called with unknown Function %d"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:629
 #, c-format
 msgid "INITIATE %s LINE %d exceeds PAGE LIMIT %d"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:636 libcob/reportio.c:651
 #, c-format
 msgid "INITIATE %s NEXT GROUP %d exceeds PAGE LIMIT"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:644
 #, c-format
 msgid "INITIATE %s LINE %d exceeds PAGE LIMIT"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:1336
 #, c-format
 msgid "INITIATE %s was already done"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:1352
 #, c-format
 msgid "INITIATE %s PAGE LIMIT problem"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:1429
 #, c-format
 msgid "TERMINATE %s but no INITIATE was done"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:1574
 #, c-format
 msgid "GENERATE %s but no INITIATE was done"
-msgstr ""
+msgstr
 
 #: libcob/reportio.c:1926
 #, c-format
 msgid "could not find line to SUPPRESS in report %s"
-msgstr ""
+msgstr
 
 #: libcob/screenio.c:1055
 #, fuzzy
@@ -7437,7 +7437,7 @@ msgstr "Kan curses niet initialiseren"
 
 #: libcob/screenio.c:5034
 msgid "end of program, please press a key to exit"
-msgstr ""
+msgstr
 
 #: libcob/termio.c:76 libcob/termio.c:136
 msgid "(Not representable)"
@@ -7446,15 +7446,15 @@ msgstr "(Niet representeerbaar)"
 #: libcob/termio.c:406
 #, c-format
 msgid "cannot open %s (=%s)"
-msgstr ""
+msgstr
 
 #: libcob/termio.c:421
 msgid "COB_DISPLAY_PUNCH_FILE is invalid, output to SYSPUNCH skipped"
-msgstr ""
+msgstr
 
 #: bin/cobcrun.c:118
 msgid "GnuCOBOL module loader"
-msgstr ""
+msgstr
 
 #: bin/cobcrun.c:120
 #, fuzzy, c-format
@@ -7515,7 +7515,7 @@ msgid ""
 "                                  dynamic link loader library search path\n"
 "                                  and any basename to the module preload list\n"
 "                                  (COB_LIBRARY_PATH and/or COB_PRELOAD)"
-msgstr ""
+msgstr
 
 #: bin/cobcrun.c:286
 #, fuzzy
@@ -7530,12 +7530,12 @@ msgstr "Ongeldige uitvoer bestandsnaam"
 #: bin/cobcrun.c:408
 #, c-format
 msgid "%s: missing PROGRAM name"
-msgstr ""
+msgstr
 
 #: bin/cobcrun.c:410
 #, c-format
 msgid "Try '%s --help' for more information."
-msgstr ""
+msgstr
 
 #, fuzzy
 #~ msgid "%s: %d: invalid cast from '%s' type %s to type %s"
@@ -7614,13 +7614,13 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "initialize fields without VALUE to decimal value"
-#~ msgstr ""
+#~ msgstr
 #~ "Initialiseer velden zonder VALUE naar numerieke waarde\n"
 #~ "\t\t\t- 0 to 255 (Standaard : initialiseer naar opmaak)"
 
 #, fuzzy
 #~ msgid "intrinsics to be used without FUNCTION keyword"
-#~ msgstr ""
+#~ msgstr
 #~ "Ingebouwde functie moet gebruikt worden zonder FUNCTION sleutelwoord\n"
 #~ "\t\t\t- ALL of ingebouwde functienaam (,naam,...)"
 
@@ -7636,7 +7636,7 @@ msgstr ""
 #~ msgid ""
 #~ "generate trace code\n"
 #~ "\t\t\t- executed SECTION/PARAGRAPH"
-#~ msgstr ""
+#~ msgstr
 #~ "Genereer trace code\n"
 #~ "\t\t\t- SECTIE/PARAGRAAF uitgevoerd"
 
@@ -7645,14 +7645,14 @@ msgstr ""
 #~ "generate trace code\n"
 #~ "\t\t\t- executed SECTION/PARAGRAPH/STATEMENTS\n"
 #~ "\t\t\t- turned on by -debug"
-#~ msgstr ""
+#~ msgstr
 #~ "Genereer trace code\n"
 #~ "\t\t\t- SECTIE/PARAGRAAF/STATEMENTS uitgevoerd\t\t\t- Ingeschakeld door -debug"
 
 #~ msgid ""
 #~ "'*' or '/' in column 1 treated as comment\n"
 #~ "\t\t\t- FIXED format only"
-#~ msgstr ""
+#~ msgstr
 #~ "Zie '*' of '/' in kolom 1 als commentaar\n"
 #~ "\t\t\t- Alleen bij vast formaat"
 
@@ -7855,7 +7855,7 @@ msgstr ""
 #~ msgid ""
 #~ "allow syntax extensions\n"
 #~ "\t\t\t- e.g. switch name SW1, etc."
-#~ msgstr ""
+#~ msgstr
 #~ "Sta syntaxis extensies toe\n"
 #~ "\t\t\t- bv. Switch naam SW1, etc."
 
