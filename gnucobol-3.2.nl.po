@@ -1670,120 +1670,113 @@ msgstr "onverwachte VALUES ARE voor elementair veld"
 msgid "initial VALUE clause ignored for %s item '%s'"
 msgstr "initiële VALUE clausule genegeerd voor %s veld '%s'"
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxx                                                                        xxxxx
-xxxxx                         continue below                                 xxxxx
-xxxxx                                                                        xxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/field.c:1853
 msgid "FULL has no effect on numeric items; you may want REQUIRED or PIC Z"
-msgstr
+msgstr "FULL heeft geen effect op numerieke items; u kunt REQUIRED of PIC Z gebruiken"
 
 #: cobc/field.c:1884
 msgid "VALUE may not contain a figurative constant"
-msgstr
+msgstr "VALUE mag geen figuratieve constante bevatten"
 
 #: cobc/field.c:1893 cobc/field.c:1935 cobc/parser.y:750 cobc/parser.y:1823
 #: cobc/parser.y:1826
 #, c-format
 msgid "cannot specify both %s and %s"
-msgstr
+msgstr "%s en %s kunnen niet beiden gespecificeerd worden"
 
 #: cobc/field.c:1905
 #, c-format
 msgid "'%s' has FROM, TO or USING without PIC; PIC will be implied"
-msgstr
+msgstr "'%s' heeft FROM, TO of USING zonder PIC; PIC wordt aangenomen"
 
 #: cobc/field.c:1922
 #, c-format
 msgid "'%s' has numeric VALUE without PIC; PIC will be implied"
-msgstr
+msgstr "'%s' heeft numerieke VALUE zonder PIC; PIC wordt aangenomen"
 
 #: cobc/field.c:1943
 msgid "cannot have PIC without FROM, TO or USING"
-msgstr
+msgstr "PIC kan niet zonder FROM, TO of USING"
 
 #: cobc/field.c:1952
 msgid "cannot have numeric VALUE without PIC"
-msgstr
+msgstr "numerieke VALUE kan niet zonder PIC"
 
 #: cobc/field.c:1961
 msgid "cannot have FROM, TO or USING without PIC"
-msgstr
+msgstr "FROM, TO of USING kunnen niet zonder PIC"
 
 #: cobc/field.c:1971
 #, fuzzy
 #| msgid "INITIALIZED TO item is not alphanumeric"
 msgid "VALUE item may not be numeric"
-msgstr "INITIALIZED TO veld is niet alfanumeriek"
+msgstr "VALUE veld mag niet numeriek zijn"
 
 #: cobc/field.c:1986
 #, c-format
 msgid "'%s' needs a PIC, COL, LINE, VALUE, BELL or BLANK clause"
-msgstr
+msgstr "'%s' heeft een PIC, COL, LINE, VALUE, BELL of BLANK clausule nodig"
 
 #: cobc/field.c:1998
 #, c-format
 msgid "'%s' cannot have PIC without FROM, TO, USING or numeric VALUE"
-msgstr
+msgstr "'%s' kan geen PIC zijn zonder FROM, TO, USING of numerieke VALUE"
 
 #: cobc/field.c:2006
 #, c-format
 msgid "'%s' needs a PIC, FROM, TO, USING, VALUE, BELL, BLANK or ERASE clause"
-msgstr
+msgstr "'%s' heeft een PIC, FROM, TO, USING, VALUE, BELL, BLANK of ERASE clausule nodig"
 
 #: cobc/field.c:2042
 msgid "cannot use AUTO, FULL, PROMPT, REQUIRED or SECURE on elementary item without TO or USING"
-msgstr
+msgstr "kan geen AUTO, FULL, PROMPT, REQUIRED of SECURE gebruiken op elementaire velden zonder TO of USING"
 
 #: cobc/field.c:2049
 msgid "cannot use BLANK WHEN ZERO, JUSTIFIED, OCCURS or SIGN on item without FROM, TO or USING"
-msgstr
+msgstr "kan geen BLANK WHEN ZERO, JUSTIFIED, OCCURS of SIGN gebruiken op veld zonder FROM, TO of USING"
 
 #: cobc/field.c:2068
 msgid "cannot use AUTO, FULL, REQUIRED or SECURE on elementary item without FROM, TO or USING"
-msgstr
+msgstr "kan geen AUTO, FULL, REQUIRED of SECURE gebruiken op elementair veld zonder FROM, TO of USING"
 
 #: cobc/field.c:2073
 msgid "cannot use BLANK WHEN ZERO, JUSTIFIED or SIGN without FROM, TO or USING"
-msgstr
+msgstr "kan geen BLANK WHEN ZERO, JUSTIFIED of SIGN gebruiken zonder FROM, TO of USING"
 
 #: cobc/field.c:2090
 #, fuzzy
 msgid "cannot have BLANK WHEN ZERO without PIC"
-msgstr "'%s' kan geen BLANK WHEN ZERO zijn"
+msgstr "kan geen BLANK WHEN ZERO zonder PIC zijn"
 
 #: cobc/field.c:2093
 #, fuzzy
 #| msgid "'%s' cannot have JUSTIFIED RIGHT"
 msgid "cannot have JUSTIFIED without PIC"
-msgstr "'%s' kan geen JUSTIFIED RIGHT zijn"
+msgstr "kan geen JUSTIFIED zonder PIC zijn"
 
 #: cobc/field.c:2113
 msgid "cannot have AUTO without FROM, TO or USING"
-msgstr
+msgstr "kan geen AUTO zonder FROM, TO of USING zijn"
 
 #: cobc/field.c:2118
 msgid "cannot use FULL or REQUIRED on item without TO or USING"
-msgstr
+msgstr "FULL of REQUIRED kunnen niet op een veld gebruikt worden zonder TO of USING"
 
 #: cobc/field.c:2125
 msgid "SECURE can be used with TO only"
-msgstr
+msgstr "SECURE kan alleen met TO gebruikt worden"
 
 #: cobc/field.c:2127
 #, fuzzy
 #| msgid "READ must be executed first"
 msgid "SECURE must be used with TO"
-msgstr "READ moet eerst worden uitgevoerd"
+msgstr "SECURE moet met TO gebruikt worden"
 
 #: cobc/field.c:2146
 #, fuzzy, c-format
 #| msgid "'%s' is not defined"
 msgid "'%s' does nothing"
-msgstr "'%s' is niet gedefinieerd"
+msgstr "'%s' doet niets"
 
 #: cobc/field.c:2361
 #, fuzzy, c-format
@@ -1793,12 +1786,12 @@ msgstr "'%s' 77 niveau hier niet toegestaan"
 
 #: cobc/field.c:2399
 msgid "OCCURS and multi COLUMNs is not allowed"
-msgstr
+msgstr "OCCURS en multi COLUMNs is niet toegestaan"
 
 #: cobc/field.c:2419
 #, fuzzy, c-format
 msgid "duplicate LINE %d ignored"
-msgstr "Dubbele definitie '%s' - Negeren"
+msgstr "dubbele LINE %d genegeerd"
 
 #: cobc/field.c:2870
 #, fuzzy, c-format
@@ -1807,12 +1800,12 @@ msgstr "SYNCHRONIZED genegeerd voor groep veld '%s'"
 
 #: cobc/field.c:2884 cobc/field.c:3219
 msgid "larger REDEFINES"
-msgstr
+msgstr "grotere REDEFINES"
 
 #: cobc/field.c:2898 cobc/field.c:3222 cobc/field.c:3227
 #, fuzzy, c-format
 msgid "size of '%s' larger than size of '%s'"
-msgstr "Lengte van '%s' groter dan lengte van '%s'"
+msgstr "lengte van '%s' groter dan lengte van '%s'"
 
 #: cobc/field.c:3045 cobc/field.c:3129 cobc/parser.y:832
 #, fuzzy, c-format
@@ -1836,13 +1829,20 @@ msgstr "%s and %s sluiten elkaar uit"
 
 #: cobc/field.c:3354 cobc/parser.y:7810 cobc/parser.y:7847
 msgid "variable-length PICTURE"
-msgstr
+msgstr "PICTURE met variabele lengte"
 
 #: cobc/field.c:3475
 #, fuzzy
 msgid "literal type does not match numeric data type"
-msgstr "Constante type komt niet overeen met data type"
+msgstr "constante type komt niet overeen met numeriek data type"
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxx                                                                        xxxxx
+xxxxx                         continue below                                 xxxxx
+xxxxx                                                                        xxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/field.c:3549
 #, c-format
 msgid "THRU item '%s' may not come before '%s'"
