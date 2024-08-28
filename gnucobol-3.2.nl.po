@@ -1846,7 +1846,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/field.c:3549
 #, c-format
 msgid "THRU item '%s' may not come before '%s'"
-msgstr
+msgstr "THRU veld '%s' mag niet voorafgaan aan '%s'"
 
 #: cobc/field.c:3572
 #, c-format
