@@ -1836,13 +1836,6 @@ msgstr "PICTURE met variabele lengte"
 msgid "literal type does not match numeric data type"
 msgstr "constante type komt niet overeen met numeriek data type"
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxx                                                                        xxxxx
-xxxxx                         continue below                                 xxxxx
-xxxxx                                                                        xxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/field.c:3549
 #, c-format
 msgid "THRU item '%s' may not come before '%s'"
@@ -1851,84 +1844,97 @@ msgstr "THRU veld '%s' mag niet voorafgaan aan '%s'"
 #: cobc/field.c:3572
 #, c-format
 msgid "RENAMES cannot start/end at the OCCURS item '%s'"
-msgstr
+msgstr "RENAMES kunnen niet beginnen of eindigen op OCCURS veld '%s'"
 
 #: cobc/field.c:3580
 #, c-format
 msgid "cannot use RENAMES on part of the table '%s'"
-msgstr
+msgstr "RENAMES kunnen niet gebruikt worden als deel van tabel '%s'"
 
 #: cobc/field.c:3618
 #, c-format
 msgid "RENAMES may not contain '%s' as it is a pointer or object reference"
-msgstr
+msgstr "RENAMES mag geen '%s' bevatten omdat het een pointer of object verwijzing is"
 
 #: cobc/field.c:3623
 #, c-format
 msgid "RENAMES may not contain '%s' as it is an OCCURS DEPENDING table"
-msgstr
+msgstr "RENAMES mag geen '%s' bevatten omdat het OCCURS DEPENDING tabel is"
 
 #: cobc/field.c:3647
 #, fuzzy
 msgid "RENAMES may not reference a level 88"
-msgstr "RENAMES mag niet verwijzen naar een 01 of > 50 niveau"
+msgstr "RENAMES mag niet verwijzen naar een 88 niveau"
 
 #: cobc/field.c:3671
 #, c-format
 msgid "'%s' must immediately follow the record '%s'"
-msgstr
+msgstr "'%s' moet direct na record '%s' volgen"
 
 #: cobc/field.c:3679
 #, c-format
 msgid "THRU item must be different to '%s'"
-msgstr
+msgstr "THRU veld moet verschillen van '%s'"
 
 #: cobc/field.c:3685
 #, c-format
 msgid "'%s' and '%s' must be in the same record"
-msgstr
+msgstr "'%s' en '%s' moeten in hetzelfde record zitten"
 
 #: cobc/field.c:3696
 #, c-format
 msgid "THRU item '%s' may not be subordinate to '%s'"
-msgstr
+msgstr "THRU veld '%s' mag niet ondergeschikt zijn aan '%s'"
 
 #: cobc/flag.def:44
 msgid ""
 "  -fstack-size=<number>\tdefine PERFORM stack size\n"
 "                       * default: 255"
-msgstr
+msgstr ""
+"  -fstack-size=<nummer>\tdefinieer PERFORM stapelgrootte\n"
+"                       * standaard: 255"
 
 #: cobc/flag.def:49
 msgid ""
 "  -fif-cutoff=<number>  define cutoff depth for IF statements\n"
 "                        * default: 3"
-msgstr
+msgstr ""
+"  -fif-cutoff=<nummer>  definieer afkap diepte voor IF statements\n"
+"                        * standaard: 3"
 
 #: cobc/flag.def:54
 #, fuzzy
 msgid ""
 "  -fsign=[ASCII|EBCDIC]\tdefine display sign representation\n"
 "                        * default: machine native"
-msgstr
-"Definieer display teken representatie\n"
-"\t\t\t- ASCII of EBCDIC (Standaard : machine native)"
+msgstr ""
+"  -fsign=[ASCII|EBCDIC]\tdefinieer display sign representatie\n"
+"                        * standaard: machine native"
 
 #: cobc/flag.def:58
 #, fuzzy
 msgid ""
 "  -ffold-copy=[UPPER|LOWER]\tfold COPY subject to value\n"
 "                        * default: no transformation"
-msgstr
-"Transformeer COPY naar waarde\n"
-"\t\t\t- UPPER of LOWER (Standaard : geen transformatie)"
+msgstr ""
+"  -ffold-copy=[UPPER|LOWER]\tconverteer COPY onderwerp naar waarde\n"
+"                        * standaard: geen transformatie"
 
 #: cobc/flag.def:62
 msgid ""
 "  -ffold-call=[UPPER|LOWER]\tfold PROGRAM-ID, CALL, CANCEL subject to value\n"
 "                        * default: no transformation"
-msgstr
+msgstr ""
+"  -ffold-call=[UPPER|LOWER]\tconverteer PROGRAM-ID, CALL, CANCEL onderwerp naar waarde\n"
+"                        * standaard: geen transformatie"
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxx                                                                        xxxxx
+xxxxx                         continue below                                 xxxxx
+xxxxx                                                                        xxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #: cobc/flag.def:66
 msgid ""
 "  -fmax-errors=<number>\tmaximum number of errors to report before\n"
