@@ -1928,6 +1928,115 @@ msgstr ""
 "  -ffold-call=[UPPER|LOWER]\tconverteer PROGRAM-ID, CALL, CANCEL onderwerp naar waarde\n"
 "                        * standaard: geen transformatie"
 
+#: cobc/flag.def:66
+msgid ""
+"  -fmax-errors=<number>\tmaximum number of errors to report before\n"
+"                        compilation is aborted\n"
+"                        * default: 128"
+msgstr ""
+"  -fmax-errors=<nummer>\tmaximum aantal te rapporteren fouten voordat\n"
+"                        compilatie wordt gestopt\n"
+"                        * standaard: 128"
+
+#: cobc/flag.def:73
+msgid ""
+"  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n"
+"                        intrinsics to be used without FUNCTION keyword"
+msgstr ""
+"  -fintrinsics=[ALL|intrinsieke functie naam(,naam,...)]\n"
+"                        gebruikte intrinsieken zonder FUNCTION sleutelwoord"
+
+#: cobc/flag.def:85
+msgid ""
+"  -fdump=<scope>        dump data fields on abort, <scope> may be\n"
+"                        a combination of: ALL, WS, LS, RD, FD, SC, LO"
+msgstr ""
+"  -fdump=<bereik>       dump data velden op abort, <bereik> mag een\n"
+"                        combinatie zijn van: ALL, WS, LS, RD, FD, SC, LO"
+
+#: cobc/flag.def:88
+msgid ""
+"  -fno-dump=<scope>     exclude data fields from dumping on abort, <scope> may\n"
+"                        be a combination of: ALL, WS, LS, RD, FD, SC, LO\n"
+"                        default if no scope specified: ALL"
+msgstr ""
+"  -fno-dump=<bereik>    sluit data velden uit van dumping op abort, <bereik> mag\n"
+"                        een combinatie zijn van: ALL, WS, LS, RD, FD, SC, LO\n"
+"                        standaard als geen bereik is opgegeven: ALL"
+
+#: cobc/flag.def:94
+msgid ""
+"  -fcallfh=<name>       specifies <name> to be used for I/O\n"
+"                        as external provided EXTFH interface module"
+msgstr ""
+"  -fcallfh=<naam>       specificeert <naam> om te gebruiken voor I/O\n"
+"                        als externe EXTFH interface module"
+
+#: cobc/flag.def:98
+msgid ""
+"  -febcdic-table=<cconv-table>/<file>\tEBCDIC/ASCII translation table\n"
+"                        * e.g. default, ebcdic500_latin1..."
+msgstr ""
+"  -febcdic-table=<cconv-table>/<file>\tEBCDIC/ASCII vertaaltabel\n"
+"                        * bijv. default, ebcdic500_latin1..."
+
+#: cobc/flag.def:102
+msgid ""
+"  -fdefault-colseq=[ASCII|EBCDIC|NATIVE]\tdefine default collating sequence\n"
+"                        * default: NATIVE"
+msgstr ""
+"  -fdefault-colseq=[ASCII|EBCDIC|NATIVE]\tdefinieer standaard collating sequence\n"
+"                        * standaard: NATIVE"
+
+#: cobc/flag.def:110
+#, fuzzy
+msgid ""
+"  -fwinmain             generate WinMain instead of main when compiling\n"
+"                        as executable"
+msgstr ""
+"  -fwinmain             genereer WinMain in plaats van main als een\n"
+"                        executable wordt gecompileerd"
+
+#: cobc/flag.def:114
+#, fuzzy
+msgid "  -fcomputed-goto       generate computed goto C statements"
+msgstr "  -fcomputed-goto       genereer berekende goto C statements"
+
+#: cobc/flag.def:117
+msgid "  -fextra-brace         generate extra braces in C source"
+msgstr "  -fextra-brace         genereer extra accolades in C source"
+
+#: cobc/flag.def:120
+#, fuzzy
+msgid "  -fcorrect-numeric     attempt correction of invalid numeric display items"
+msgstr "  -fcorrect-numeric     probeer fouten in numerieke display velden te corrigeren"
+
+#: cobc/flag.def:123
+#, fuzzy
+#| msgid "PERFORM stack allocated on heap"
+msgid "  -fstack-on-heap       PERFORM stack allocated on heap"
+msgstr "  -fstack-on-heap       PERFORM stapel gealloceerd in dynamisch geheugen"
+
+#: cobc/flag.def:126
+msgid ""
+"  -fstack-extended      store origin of entrypoints and PERFORM\n"
+"                        * turned on by --debug/-fdump"
+msgstr ""
+"  -fstack-extended      sla herkomst van entrypoints en PERFORM op\n"
+"                        * wordt aangezet door --debug/-fdump"
+
+#: cobc/flag.def:130
+msgid "  -fno-fast-compare     disables inline comparisions"
+msgstr "  -fno-fast-compare     schakel inline vergelijkingen uit"
+
+#: cobc/flag.def:135
+msgid ""
+"  -fno-remove-unreachable\tdisable remove of unreachable code\n"
+"                        * turned off by -g"
+msgstr ""
+"  -fno-remove-unreachable\tschakel verwijdering van onbereikbare code uit\n"
+"                        * wordt uitgezet met -g"
+
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxx                                                                        xxxxx
@@ -1935,93 +2044,6 @@ xxxxx                         continue below                                 xxx
 xxxxx                                                                        xxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-#: cobc/flag.def:66
-msgid ""
-"  -fmax-errors=<number>\tmaximum number of errors to report before\n"
-"                        compilation is aborted\n"
-"                        * default: 128"
-msgstr
-
-#: cobc/flag.def:73
-msgid ""
-"  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n"
-"                        intrinsics to be used without FUNCTION keyword"
-msgstr
-
-#: cobc/flag.def:85
-msgid ""
-"  -fdump=<scope>        dump data fields on abort, <scope> may be\n"
-"                        a combination of: ALL, WS, LS, RD, FD, SC, LO"
-msgstr
-
-#: cobc/flag.def:88
-msgid ""
-"  -fno-dump=<scope>     exclude data fields from dumping on abort, <scope> may\n"
-"                        be a combination of: ALL, WS, LS, RD, FD, SC, LO\n"
-"                        default if no scope specified: ALL"
-msgstr
-
-#: cobc/flag.def:94
-msgid ""
-"  -fcallfh=<name>       specifies <name> to be used for I/O\n"
-"                        as external provided EXTFH interface module"
-msgstr
-
-#: cobc/flag.def:98
-msgid ""
-"  -febcdic-table=<cconv-table>/<file>\tEBCDIC/ASCII translation table\n"
-"                        * e.g. default, ebcdic500_latin1..."
-msgstr
-
-#: cobc/flag.def:102
-msgid ""
-"  -fdefault-colseq=[ASCII|EBCDIC|NATIVE]\tdefine default collating sequence\n"
-"                        * default: NATIVE"
-msgstr
-
-#: cobc/flag.def:110
-#, fuzzy
-msgid ""
-"  -fwinmain             generate WinMain instead of main when compiling\n"
-"                        as executable"
-msgstr "  -i, -info             Toont compiler bouw informatie"
-
-#: cobc/flag.def:114
-#, fuzzy
-msgid "  -fcomputed-goto       generate computed goto C statements"
-msgstr "Genereer berekende goto C statements"
-
-#: cobc/flag.def:117
-msgid "  -fextra-brace         generate extra braces in C source"
-msgstr
-
-#: cobc/flag.def:120
-#, fuzzy
-msgid "  -fcorrect-numeric     attempt correction of invalid numeric display items"
-msgstr "Probeer fouten in numerieke display velden te corrigeren"
-
-#: cobc/flag.def:123
-#, fuzzy
-#| msgid "PERFORM stack allocated on heap"
-msgid "  -fstack-on-heap       PERFORM stack allocated on heap"
-msgstr "PERFORM stapel gealloceerd in dynamisch geheugen"
-
-#: cobc/flag.def:126
-msgid ""
-"  -fstack-extended      store origin of entrypoints and PERFORM\n"
-"                        * turned on by --debug/-fdump"
-msgstr
-
-#: cobc/flag.def:130
-msgid "  -fno-fast-compare     disables inline comparisions"
-msgstr
-
-#: cobc/flag.def:135
-msgid ""
-"  -fno-remove-unreachable\tdisable remove of unreachable code\n"
-"                        * turned off by -g"
-msgstr
-
 #: cobc/flag.def:139
 #, fuzzy
 msgid ""
