@@ -2037,6 +2037,205 @@ msgstr ""
 "  -fno-remove-unreachable\tschakel verwijdering van onbereikbare code uit\n"
 "                        * wordt uitgezet met -g"
 
+#: cobc/flag.def:139
+#, fuzzy
+msgid ""
+"  -ftrace               generate trace code\n"
+"                        * scope: executed SECTION/PARAGRAPH"
+msgstr ""
+"  -ftrace               genereer trace code\n"
+"                        * bereik: uitgevoerde SECTION/PARAGRAPH"
+
+#: cobc/flag.def:143
+msgid ""
+"  -ftraceall            generate trace code\n"
+"                        * scope: executed SECTION/PARAGRAPH/STATEMENTS"
+msgstr ""
+"  -ftraceall            genereer trace code\n"
+"                        * bereik: uitgevoerde SECTION/PARAGRAPH/STATEMENTS"
+
+#: cobc/flag.def:147
+#, fuzzy
+msgid "  -fsyntax-only         syntax error checking only; don't emit any output"
+msgstr "  -fsyntax-only         alleen syntaxis fout controle; maak geen uitvoer"
+
+#: cobc/flag.def:150
+#, fuzzy
+msgid ""
+"  -fdebugging-line      enable debugging lines\n"
+"                        * 'D' in indicator column or floating >>D"
+msgstr ""
+"  -fdebugging-line      inschakelen debugging regels\n"
+"                        * 'D' in indicator kolom of zwervende >>D"
+
+#: cobc/flag.def:154
+#, fuzzy
+msgid ""
+"  -fsource-location     generate source location code\n"
+"                        * turned on by --debug/-ftraceall/-fec/-fdump"
+msgstr ""
+"  -fsource-location     genereer bron locatie code\n"
+"                        * ingeschakeld door --debug/-ftraceall-fec/-fdump"
+
+#: cobc/flag.def:158
+#, fuzzy
+msgid "  -fimplicit-init       automatic initialization of the COBOL runtime system"
+msgstr "  -fimplicit-init       automatische initialisatie van het COBOL runtime systeem"
+
+#: cobc/flag.def:161
+msgid ""
+"  -fno-recursive-check  disable check of recursive program call;\n"
+"                        effectively compiling as RECURSIVE program"
+msgstr ""
+"  -fno-recursive-check  schakel controle uit van recursieve programma aanroep;\n"
+"                        effectief compilerend als RECURSIVE programma"
+
+#: cobc/flag.def:165
+#, fuzzy
+msgid ""
+"  -fstack-check         PERFORM stack checking\n"
+"                        * turned on by --debug/-g"
+msgstr ""
+"  -fstack-check         PERFORM stapel controle\n"
+"                        * ingeschakeld door --debug/-g"
+
+#: cobc/flag.def:169
+msgid ""
+"  -fmemory-check=<scope>     checks for invalid writes to internal storage,\n"
+"                        <scope> may be one of: all, pointer, using, none\n"
+"                        * default: none, set to all by --debug"
+msgstr ""
+"  -fmemory-check=<bereik>    controle op ongeldige schrijfacties naar intern geheugen,\n"
+"                        <bereik> mag zijn: all, pointer, using, none\n"
+"                        * standaard: none, gezet op all door --debug"
+
+#: cobc/flag.def:174
+msgid "  -fsection-exit-check  check that code execution does not leave the scope of SECTIONs"
+msgstr "  -fsection-exit-check  controleer of uitvoering van code niet uit het bereik van de SECTIONs gaat"
+
+#: cobc/flag.def:177
+msgid "  -fimplicit-goback-check\tcheck that code execution does not end implicit at end of PROCEDURE DIVISION"
+msgstr "  -fimplicit-goback-check\tcontroleer of uitvoering van code niet impliciet eindigt bij het einde van de PROCEDURE DIVISION"
+
+#: cobc/flag.def:180
+#, fuzzy
+msgid ""
+"  -fwrite-after         use AFTER 1 for WRITE of LINE SEQUENTIAL\n"
+"                        * default: BEFORE 1"
+msgstr ""
+"  -fwrite-after         gebruik AFTER 1 voor WRITE bij LINE SEQUENTIAL\n"
+"                        * standaard : BEFORE 1"
+
+#: cobc/flag.def:184
+msgid ""
+"  -fmfcomment           '*' in column 1 treated as comment with listing suppression\n"
+"                        * FIXED/COBOL85/VARIABLE format only"
+msgstr ""
+"  -fmfcomment           '*' in column 1 behandelen als commentaar met lijstonderdrukking\n"
+"                        * alleen FIXED/COBOL85/VARIABLE formaat"
+
+#: cobc/flag.def:188
+msgid ""
+"  -facucomment          '$' in indicator area treated as '*',\n"
+"                        '|' treated as floating comment"
+msgstr ""
+"  -facucomment          '$' in indicator area behandelen als '*',\n"
+"                        '|' behandelen als zwevend commentaar"
+
+#: cobc/flag.def:193
+#, fuzzy
+msgid ""
+"  -fno-trunc            allow numeric field overflow\n"
+"                        * non-ANSI behaviour"
+msgstr ""
+"  -fno-trunc            sta overloop toe in numerieke velden\n"
+"                        * Non-ANSI gedrag"
+
+#: cobc/flag.def:197
+#, fuzzy
+msgid ""
+"  -fsingle-quote        use a single quote (apostrophe) for QUOTE\n"
+"                        * default: double quote"
+msgstr ""
+"  -fsingle-quote        gebruik een enkel aanhalingsteken (apostrof) voor QUOTE\n"
+"                        * standaard : dubbel aanhalingsteken"
+
+#: cobc/flag.def:207
+#, fuzzy
+msgid ""
+"  -foptional-file       treat all files as OPTIONAL\n"
+"                        * unless NOT OPTIONAL specified"
+msgstr ""
+"  -foptional-file       behandel alle bestanden als OPTIONAL\n"
+"                        * tenzij NOT OPTIONAL is gespecificeerd"
+
+#: cobc/flag.def:211
+#, fuzzy
+msgid "  -fstatic-call         output static function calls for the CALL statement"
+msgstr "  -fstatic-call         uitvoer statische functie roept een CALL statement aan"
+
+#: cobc/flag.def:214
+msgid ""
+"  -fno-gen-c-decl-static-call\tdisable generation of C function declarations\n"
+"                        for subroutines with static CALL"
+msgstr ""
+"  -fno-gen-c-decl-static-call\tgenereren van C functie declaraties uitschakelen\n"
+"                        voor subroutines met statische CALL aanroepen"
+
+#: cobc/flag.def:218
+msgid ""
+"  -fgen-c-line-directives\tgenerate source location directives in C code;\n"
+"                        * turned on by -g/--coverage"
+msgstr ""
+"  -fgen-c-line-directives\tgenereer bronlocatierichtlijnen in C code;\n"
+"                        * ingeschakeld door -g/--coverage"
+
+#: cobc/flag.def:222
+msgid ""
+"  -fgen-c-labels        generate extra labels in C sources;\n"
+"                        * turned on by -g"
+msgstr ""
+"  -fgen-c-labels        genereer extra labels in C sources;\n"
+"                        * ingeschakeld door -g"
+
+#: cobc/flag.def:226
+msgid ""
+"  -fno-theaders         suppress all headers from listing while keeping\n"
+"                        page breaks"
+msgstr ""
+"  -fno-theaders         onderdruk alle koppen van de lijsten maar behoudt\n"
+"                        pagina-einden"
+
+#: cobc/flag.def:230
+#, fuzzy
+msgid "  -fno-tsource          suppress source from listing"
+msgstr "  -fno-tsource          onderdruk source van lijsten"
+
+#: cobc/flag.def:233
+msgid "  -fno-tmessages        suppress warning and error summary from listing"
+msgstr "  -fno-tmessages        onderdruk waarschuwingen en fouten van lijsten"
+
+#: cobc/flag.def:236
+#, fuzzy
+msgid "  -ftsymbols            specify symbols in listing"
+msgstr "  -ftsymbols            symbolen in de lijst specificeren"
+
+#: cobc/flag.def:239
+#, fuzzy
+msgid "  -ftcmd                specify command line in listing"
+msgstr "  -ftcmd                specificeer commando regel in lijst"
+
+#: cobc/flag.def:242
+msgid "  -fno-ttimestamp       suppress timestamp in listing headers"
+msgstr "  -fno-ttimestamp       onderdruk tijdstempels in lijstkoppen"
+
+#: cobc/flag.def:245
+msgid ""
+"  -fttitle=<title>      set listing title with '_' replaced by spaces;\n"
+"                        defaults to package name and version"
+msgstr ""
+"  -fttitle=<titel>      zet titel in de lijst en vervang '_' door spaties;\n"
+"                        standaard pakket naam en versie"
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxx                                                                        xxxxx
@@ -2044,184 +2243,6 @@ xxxxx                         continue below                                 xxx
 xxxxx                                                                        xxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-#: cobc/flag.def:139
-#, fuzzy
-msgid ""
-"  -ftrace               generate trace code\n"
-"                        * scope: executed SECTION/PARAGRAPH"
-msgstr
-"  -Xref                 Genereer kruisverwijzing door 'cobxref'\n"
-"                        (V. Coen's 'cobxref' moet in het pad staan"
-
-#: cobc/flag.def:143
-msgid ""
-"  -ftraceall            generate trace code\n"
-"                        * scope: executed SECTION/PARAGRAPH/STATEMENTS"
-msgstr
-
-#: cobc/flag.def:147
-#, fuzzy
-msgid "  -fsyntax-only         syntax error checking only; don't emit any output"
-msgstr "Alleen syntaxis fout controle; maak geen uitvoer"
-
-#: cobc/flag.def:150
-#, fuzzy
-msgid ""
-"  -fdebugging-line      enable debugging lines\n"
-"                        * 'D' in indicator column or floating >>D"
-msgstr
-"Inschakelen debugging regels\n"
-"\t\t\t- 'D' in indicator kolom of zwervende >>D"
-
-#: cobc/flag.def:154
-#, fuzzy
-msgid ""
-"  -fsource-location     generate source location code\n"
-"                        * turned on by --debug/-ftraceall/-fec/-fdump"
-msgstr
-"Genereer bron locatie code\n"
-"\t\t\t- Ingeschakeld door -debug/-g/-ftraceall"
-
-#: cobc/flag.def:158
-#, fuzzy
-msgid "  -fimplicit-init       automatic initialization of the COBOL runtime system"
-msgstr "Automatische initialisatie van het Cobol runtime systeem"
-
-#: cobc/flag.def:161
-msgid ""
-"  -fno-recursive-check  disable check of recursive program call;\n"
-"                        effectively compiling as RECURSIVE program"
-msgstr
-
-#: cobc/flag.def:165
-#, fuzzy
-msgid ""
-"  -fstack-check         PERFORM stack checking\n"
-"                        * turned on by --debug/-g"
-msgstr
-"Doe stapel controle\n"
-"\t\t\t- Ingeschakeld door -debug of -g"
-
-#: cobc/flag.def:169
-msgid ""
-"  -fmemory-check=<scope>     checks for invalid writes to internal storage,\n"
-"                        <scope> may be one of: all, pointer, using, none\n"
-"                        * default: none, set to all by --debug"
-msgstr
-
-#: cobc/flag.def:174
-msgid "  -fsection-exit-check  check that code execution does not leave the scope of SECTIONs"
-msgstr
-
-#: cobc/flag.def:177
-msgid "  -fimplicit-goback-check\tcheck that code execution does not end implicit at end of PROCEDURE DIVISION"
-msgstr
-
-#: cobc/flag.def:180
-#, fuzzy
-msgid ""
-"  -fwrite-after         use AFTER 1 for WRITE of LINE SEQUENTIAL\n"
-"                        * default: BEFORE 1"
-msgstr
-"Gebruik AFTER 1 voor WRITE bij LINE SEQUENTIAL\n"
-"\t\t\t- Standaard : BEFORE 1"
-
-#: cobc/flag.def:184
-msgid ""
-"  -fmfcomment           '*' in column 1 treated as comment with listing suppression\n"
-"                        * FIXED/COBOL85/VARIABLE format only"
-msgstr
-
-#: cobc/flag.def:188
-msgid ""
-"  -facucomment          '$' in indicator area treated as '*',\n"
-"                        '|' treated as floating comment"
-msgstr
-
-#: cobc/flag.def:193
-#, fuzzy
-msgid ""
-"  -fno-trunc            allow numeric field overflow\n"
-"                        * non-ANSI behaviour"
-msgstr
-"Sta overloop toe in numerieke velden\n"
-"\t\t\t- Non-ANSI gedrag"
-
-#: cobc/flag.def:197
-#, fuzzy
-msgid ""
-"  -fsingle-quote        use a single quote (apostrophe) for QUOTE\n"
-"                        * default: double quote"
-msgstr
-"Gebruik een enkel aanhalingsteken (apostrof) voor QUOTE\n"
-"\t\t\t- Standaard : dubbel aanhalingsteken"
-
-#: cobc/flag.def:207
-#, fuzzy
-msgid ""
-"  -foptional-file       treat all files as OPTIONAL\n"
-"                        * unless NOT OPTIONAL specified"
-msgstr
-"Behandel alle bestanden als OPTIONAL\n"
-"\t\t\t- tenzij NOT OPTIONAL is gespecificeerd"
-
-#: cobc/flag.def:211
-#, fuzzy
-msgid "  -fstatic-call         output static function calls for the CALL statement"
-msgstr "Uitvoer statische functie roept een CALL statement aan"
-
-#: cobc/flag.def:214
-msgid ""
-"  -fno-gen-c-decl-static-call\tdisable generation of C function declarations\n"
-"                        for subroutines with static CALL"
-msgstr
-
-#: cobc/flag.def:218
-msgid ""
-"  -fgen-c-line-directives\tgenerate source location directives in C code;\n"
-"                        * turned on by -g/--coverage"
-msgstr
-
-#: cobc/flag.def:222
-msgid ""
-"  -fgen-c-labels        generate extra labels in C sources;\n"
-"                        * turned on by -g"
-msgstr
-
-#: cobc/flag.def:226
-msgid ""
-"  -fno-theaders         suppress all headers from listing while keeping\n"
-"                        page breaks"
-msgstr
-
-#: cobc/flag.def:230
-#, fuzzy
-msgid "  -fno-tsource          suppress source from listing"
-msgstr "  -free                 Gebruik vrij bron formaat"
-
-#: cobc/flag.def:233
-msgid "  -fno-tmessages        suppress warning and error summary from listing"
-msgstr
-
-#: cobc/flag.def:236
-#, fuzzy
-msgid "  -ftsymbols            specify symbols in listing"
-msgstr "  -free                 Gebruik vrij bron formaat"
-
-#: cobc/flag.def:239
-#, fuzzy
-msgid "  -ftcmd                specify command line in listing"
-msgstr "  -free                 Gebruik vrij bron formaat"
-
-#: cobc/flag.def:242
-msgid "  -fno-ttimestamp       suppress timestamp in listing headers"
-msgstr
-
-#: cobc/flag.def:245
-msgid ""
-"  -fttitle=<title>      set listing title with '_' replaced by spaces;\n"
-"                        defaults to package name and version"
-msgstr
 
 #: cobc/flag.def:249
 msgid ""
